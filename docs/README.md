@@ -1,12 +1,71 @@
-# cosmoz-component
+# cosmoz-tag
 
-Template for creating Neovici public web components using pionjs and lit-html.
+An interactive tag web component built on [cosmoz-badge](https://github.com/Neovici/cosmoz-badge). Adds close/remove and disabled state to the badge's visual foundation.
 
 ## Installation
 
 ```bash
-npm install
+npm install @neovici/cosmoz-tag
 ```
+
+## Usage
+
+Import the component:
+
+```javascript
+import '@neovici/cosmoz-tag';
+```
+
+Use in HTML:
+
+```html
+<!-- Basic tag -->
+<cosmoz-tag color="brand">Label</cosmoz-tag>
+
+<!-- Closable tag -->
+<cosmoz-tag closeable @tag-close="${handleClose}">Label</cosmoz-tag>
+
+<!-- Full-featured tag -->
+<cosmoz-tag closeable color="brand"> Label </cosmoz-tag>
+```
+
+## Attributes
+
+| Attribute   | Type    | Default | Description                                        |
+| ----------- | ------- | ------- | -------------------------------------------------- |
+| `color`     | string  | `gray`  | Color scheme: gray, brand, error, warning, success |
+| `size`      | string  | `md`    | Size: sm, md, lg                                   |
+| `closeable` | boolean | `false` | Show close (X) button                              |
+| `disabled`  | boolean | `false` | Disabled state (non-interactive, visually muted)   |
+
+## Events
+
+| Event       | Detail | Description                                                     |
+| ----------- | ------ | --------------------------------------------------------------- |
+| `tag-close` | `{}`   | Dispatched (bubbles, composed) when the close button is clicked |
+
+## Slots
+
+| Slot      | Description                                 |
+| --------- | ------------------------------------------- |
+| (default) | Tag label text                              |
+| `prefix`  | Content before text (icons, avatars, flags) |
+| `suffix`  | Content after text (icons)                  |
+
+## CSS Parts
+
+Exposed via `exportparts` from the inner cosmoz-badge:
+
+| Part    | Description                 |
+| ------- | --------------------------- |
+| `badge` | The badge container element |
+
+## Development
+
+1. Clone the repository
+2. Run `npm install`
+3. Start development with `npm run storybook:start`
+4. Make changes and verify with tests
 
 ## Available Scripts
 
@@ -19,79 +78,20 @@ npm install
 - `npm run storybook:start` - Start Storybook development server
 - `npm run storybook:build` - Build static Storybook
 
-## Usage
-
-Import the component:
-
-```javascript
-import '@neovici/cosmoz-component';
-```
-
-Use in HTML:
-
-```html
-<cosmoz-component greeting="Hi"></cosmoz-component>
-```
-
-## Development
-
-1. Clone the repository
-2. Run `npm install`
-3. Start development with `npm run storybook:start`
-4. Make changes and verify with tests
-
 ## Testing
 
-This template uses Vitest with two test projects:
+This project uses Vitest with two test projects:
 
 ### Unit Tests (`test:unit`)
 
-Fast tests that run in jsdom. Use for testing:
-
-- Utility functions
-- Pure logic
-- Data transformations
-
-**Note**: Unit tests cannot import Pion/Lit components or use `renderHook` from `@neovici/testing` due to ESM resolution issues in jsdom. For testing hooks and components, use Storybook interaction tests instead.
-
-```typescript
-// test/example.test.ts
-import { describe, expect, it } from 'vitest';
-import { myFunction } from '../src/utils';
-
-describe('myFunction', () => {
-	it('does something', () => {
-		expect(myFunction()).toBe(expected);
-	});
-});
-```
+Fast tests that run in jsdom for utility functions and pure logic.
 
 ### Storybook Tests (`test:storybook`)
 
-Browser-based tests using Playwright. Use for testing:
+Browser-based tests using Playwright for component rendering and interactions. Tests are written as `play` functions in story files.
 
-- Component rendering
-- User interactions
-- Visual behavior
-
-Tests are written as `play` functions in story files.
-
-### Important: Imports in Story Files
-
-**Never import from `'vitest'` in story files:**
-
-```typescript
-import { expect } from 'vitest'; // Crashes deployed Storybook
-```
-
-**Use `'storybook/test'` instead:**
-
-```typescript
-import { expect } from 'storybook/test'; // Works everywhere
-```
-
-Vitest's `expect` requires an active test context and crashes when stories run in the deployed Storybook UI.
+**Important:** Never import from `'vitest'` in story files. Use `'storybook/test'` instead.
 
 ## Publishing
 
-This package uses Semantic Release for automated versioning and publishing. Commits are analyzed and releases are created automatically based on Conventional Commits.
+This package uses Semantic Release for automated versioning and publishing based on Conventional Commits.
