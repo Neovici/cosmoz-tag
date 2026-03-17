@@ -22,11 +22,11 @@ Use in HTML:
 <!-- Basic tag -->
 <cosmoz-tag color="brand">Label</cosmoz-tag>
 
-<!-- Closable tag -->
-<cosmoz-tag closeable @tag-close="${handleClose}">Label</cosmoz-tag>
+<!-- Removable tag -->
+<cosmoz-tag removable @remove="${handleRemove}">Label</cosmoz-tag>
 
 <!-- Full-featured tag -->
-<cosmoz-tag closeable color="brand"> Label </cosmoz-tag>
+<cosmoz-tag removable color="brand"> Label </cosmoz-tag>
 ```
 
 ## Attributes
@@ -35,14 +35,14 @@ Use in HTML:
 | ----------- | ------- | ------- | -------------------------------------------------- |
 | `color`     | string  | `gray`  | Color scheme: gray, brand, error, warning, success |
 | `size`      | string  | `md`    | Size: sm, md, lg                                   |
-| `closeable` | boolean | `false` | Show close (X) button                              |
+| `removable` | boolean | `false` | Show remove (X) button                             |
 | `disabled`  | boolean | `false` | Disabled state (non-interactive, visually muted)   |
 
 ## Events
 
-| Event       | Detail | Description                                                     |
-| ----------- | ------ | --------------------------------------------------------------- |
-| `tag-close` | `{}`   | Dispatched (bubbles, composed) when the close button is clicked |
+| Event    | Detail | Description                                  |
+| -------- | ------ | -------------------------------------------- |
+| `remove` | `{}`   | Dispatched when the remove button is clicked |
 
 ## Slots
 

@@ -20,7 +20,7 @@ export const styles = css`
 	}
 
 	/* =========================================
-	 * CLOSE BUTTON
+	 * REMOVE BUTTON
 	 * ========================================= */
 	.close {
 		display: inline-flex;

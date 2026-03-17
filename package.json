@@ -60,9 +60,9 @@
     "./cosmoz-tag": "./dist/cosmoz-tag.js"
   },
   "dependencies": {
-    "@neovici/cosmoz-badge": "^1.0.0",
+    "@neovici/cosmoz-badge": "^1.0.1",
     "@neovici/cosmoz-icons": "^1.5.0",
-    "@neovici/cosmoz-tokens": "^3.3.0",
+    "@neovici/cosmoz-tokens": "^3.3.1",
     "@pionjs/pion": "^2.5.2",
     "lit-html": "^3.3.1"
   },
