@@ -1,19 +1,21 @@
 {
-  "name": "@neovici/cosmoz-component",
-  "version": "1.4.0",
-  "description": "Template for Neovici public web components",
+  "name": "@neovici/cosmoz-tag",
+  "version": "1.0.0",
+  "description": "An interactive tag web component built on cosmoz-badge with close, prefix/suffix content, count, and disabled features",
   "keywords": [
     "web-components",
     "pion",
-    "lit-html"
+    "lit-html",
+    "tag",
+    "badge"
   ],
-  "homepage": "https://github.com/Neovici/cosmoz-component#readme",
+  "homepage": "https://github.com/Neovici/cosmoz-tag#readme",
   "bugs": {
-    "url": "https://github.com/Neovici/cosmoz-component/issues"
+    "url": "https://github.com/Neovici/cosmoz-tag/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neovici/cosmoz-component.git"
+    "url": "git+https://github.com/Neovici/cosmoz-tag.git"
   },
   "license": "Apache-2.0",
   "author": "Neovici Development",
@@ -55,9 +57,12 @@
   ],
   "exports": {
     ".": "./dist/index.js",
-    "./cosmoz-component": "./dist/component.js"
+    "./cosmoz-tag": "./dist/cosmoz-tag.js"
   },
   "dependencies": {
+    "@neovici/cosmoz-badge": "^1.0.1",
+    "@neovici/cosmoz-icons": "^1.5.0",
+    "@neovici/cosmoz-tokens": "^3.3.1",
     "@pionjs/pion": "^2.5.2",
     "lit-html": "^3.3.1"
   },

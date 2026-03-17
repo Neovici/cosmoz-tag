@@ -1,1 +1,3 @@
-export { CosmozComponent } from './component';
+export type { UseTagProps } from './use-tag';
+
+export { CosmozTag } from './cosmoz-tag';
