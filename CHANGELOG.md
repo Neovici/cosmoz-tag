@@ -1,3 +1,9 @@
+## [1.2.0](https://github.com/Neovici/cosmoz-tag/compare/v1.1.0...v1.2.0) (2026-04-03)
+
+### Features
+
+* set type color ([281f4b8](https://github.com/Neovici/cosmoz-tag/commit/281f4b829273ec895a6e17a859137942c4714c44))
+
 # Changelog
 
 All notable changes to this project will be documented here.
