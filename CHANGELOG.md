@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/Neovici/cosmoz-tag/compare/v1.0.0...v1.1.0) (2026-04-03)
+
+### Features
+
+* set type modern and ifDefined directive ([02c13f2](https://github.com/Neovici/cosmoz-tag/commit/02c13f258afb77283c16ba70109d9d6c3d79cc80))
+
 ## [1.4.0](https://github.com/Neovici/cosmoz-component/compare/v1.3.0...v1.4.0) (2026-02-07)
 
 ### Features
