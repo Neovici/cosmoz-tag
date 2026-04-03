@@ -1,4 +1,4 @@
-import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-r2Bprjq4.js";import"./preload-helper-PPVm8Dsz.js";const d=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
+import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-C0K5j2Zr.js";import"./preload-helper-PPVm8Dsz.js";const d=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
     slot=${d(e)}
     class=${`arrow-right-icon ${o??""}`}
@@ -710,7 +710,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
 		color=${d(t)}
 		size=${d(o)}
 		?disabled=${r}
-		type="modern"
+		type="color"
 	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
