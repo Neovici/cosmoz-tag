@@ -40,7 +40,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		color=${ifDefined(color)}
 		size=${ifDefined(size)}
 		?disabled=${disabled}
-		type="modern"
+		type="color"
 	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
