@@ -2,6 +2,7 @@ import '@neovici/cosmoz-badge';
 import { xCloseIcon } from '@neovici/cosmoz-icons/untitled';
 import { normalize } from '@neovici/cosmoz-tokens/normalize';
 import { component, html } from '@pionjs/pion';
+import { ifDefined } from 'lit-html/directives/if-defined.js';
 import { when } from 'lit-html/directives/when.js';
 import { styles } from './styles';
 import { type UseTagProps } from './use-tag';
@@ -35,7 +36,12 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		host.dispatchEvent(new CustomEvent('remove'));
 	};
 
-	return html`<cosmoz-badge color=${color} size=${size} ?disabled=${disabled}>
+	return html`<cosmoz-badge
+		color=${ifDefined(color)}
+		size=${ifDefined(size)}
+		?disabled=${disabled}
+		type="modern"
+	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
 		<slot name="suffix" slot="suffix"></slot>
