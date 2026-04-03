@@ -1,6 +1,6 @@
-import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-CG_EEAvp.js";import"./preload-helper-PPVm8Dsz.js";const h=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
+import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-r2Bprjq4.js";import"./preload-helper-PPVm8Dsz.js";const d=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`arrow-right-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -12,14 +12,14 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path d="M5 12h14m0 0-7-7m7 7-7 7" />
   </svg>
 `,F=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`arrow-up-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -31,14 +31,14 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path d="M12 19V5m0 0-7 7m7-7 7 7" />
   </svg>
 `,ue=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`battery-full-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -50,7 +50,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
@@ -59,7 +59,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
   </svg>
 `,me=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`battery-low-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -71,7 +71,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
@@ -80,7 +80,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
   </svg>
 `,ge=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`battery-mid-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -92,16 +92,16 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
       d="M6.5 10v4m4-4v4M22 13v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
   </svg>
-`,fe=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
+`,pe=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`bell-minus-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -113,16 +113,16 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
       d="M9.354 21c.705.622 1.632 1 2.646 1s1.94-.378 2.646-1M15 5h6m-8-2.916A6 6 0 0 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.089 1.936.015.182.054.252.2.36.133.099.732.099 1.928.099H18.61c1.197 0 1.795 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.087-1.935-.774-1.243-1.476-3.052-1.623-5.606"
     />
   </svg>
-`,pe=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
+`,fe=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`bell-plus-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -134,7 +134,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
@@ -143,7 +143,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
   </svg>
 `,ve=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`bell-ringing-01-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -155,7 +155,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
@@ -164,7 +164,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
   </svg>
 `,be=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`bell-ringing-03-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -176,7 +176,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path
@@ -185,7 +185,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
   </svg>
 `,$e=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
-    slot=${h(e)}
+    slot=${d(e)}
     class=${`x-close-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -197,12 +197,12 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
     stroke-linejoin="round"
     width=${r}
     height=${s}
-    style=${h(n)}
+    style=${d(n)}
   >
     ${z(t,()=>w`<title>${t}</title>`)}
     <path d="M18 6 6 18M6 6l12 12" />
   </svg>
-`;const ye={CHILD:2},ze=e=>(...t)=>({_$litDirective$:e,values:t});class we{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,r){this._$Ct=t,this._$AM=o,this._$Ci=r}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}const Q=(e,t,o)=>{const r=new Map;for(let s=t;s<=o;s++)r.set(e[s],s);return r},xe=ze(class extends we{constructor(e){if(super(e),e.type!==ye.CHILD)throw Error("repeat() can only be used in text expressions")}dt(e,t,o){let r;o===void 0?o=t:t!==void 0&&(r=t);const s=[],n=[];let c=0;for(const v of e)s[c]=r?r(v,c):c,n[c]=o(v,c),c++;return{values:n,keys:s}}render(e,t,o){return this.dt(e,t,o).values}update(e,[t,o,r]){const s=ce(e),{values:n,keys:c}=this.dt(t,o,r);if(!Array.isArray(s))return this.ut=c,n;const v=this.ut??=[],b=[];let _,I,l=0,m=s.length-1,d=0,f=n.length-1;for(;l<=m&&d<=f;)if(s[l]===null)l++;else if(s[m]===null)m--;else if(v[l]===c[d])b[d]=C(s[l],n[d]),l++,d++;else if(v[m]===c[f])b[f]=C(s[m],n[f]),m--,f--;else if(v[l]===c[f])b[f]=C(s[l],n[f]),R(e,b[f+1],s[l]),l++,f--;else if(v[m]===c[d])b[d]=C(s[m],n[d]),R(e,s[l],s[m]),m--,d++;else if(_===void 0&&(_=Q(c,d,f),I=Q(v,l,m)),_.has(v[l]))if(_.has(v[m])){const g=I.get(c[d]),u=g!==void 0?s[g]:null;if(u===null){const p=R(e,s[l]);C(p,n[d]),b[d]=p}else b[d]=C(u,n[d]),R(e,s[l],u),s[g]=null;d++}else Y(s[m]),m--;else Y(s[l]),l++;for(;d<=f;){const g=R(e,b[f+1]);C(g,n[d]),b[d++]=g}for(;l<=m;){const g=s[l++];g!==null&&Y(g)}return this.ut=c,de(e,b),le}});let H,ee=0;function q(e){H=e}function G(){H=null,ee=0}function ke(){return ee++}const V=Symbol("haunted.phase"),U=Symbol("haunted.hook"),X=Symbol("haunted.update"),J=Symbol("haunted.commit"),S=Symbol("haunted.effects"),A=Symbol("haunted.layoutEffects"),W="haunted.context";class Ce{update;host;virtual;[U];[S];[A];constructor(t,o){this.update=t,this.host=o,this[U]=new Map,this[S]=[],this[A]=[]}run(t){q(this);let o=t();return G(),o}_runEffects(t){let o=this[t];q(this);for(let r of o)r.call(this);G()}runEffects(){this._runEffects(S)}runLayoutEffects(){this._runEffects(A)}teardown(){this[U].forEach(o=>{typeof o.teardown=="function"&&o.teardown(!0)})}}const Se=Promise.resolve().then.bind(Promise.resolve());function te(){let e=[],t;function o(){t=null;let r=e;e=[];for(var s=0,n=r.length;s<n;s++)r[s]()}return function(r){e.push(r),t==null&&(t=Se(o))}}const _e=te(),K=te();class Me{renderer;host;state;[V];_updateQueued;_active;constructor(t,o){this.renderer=t,this.host=o,this.state=new Ce(this.update.bind(this),o),this[V]=null,this._updateQueued=!1,this._active=!0}update(){this._active&&(this._updateQueued||(_e(()=>{let t=this.handlePhase(X);K(()=>{this.handlePhase(J,t),K(()=>{this.handlePhase(S)})}),this._updateQueued=!1}),this._updateQueued=!0))}handlePhase(t,o){switch(this[V]=t,t){case J:this.commit(o),this.runEffects(A);return;case X:return this.render();case S:return this.runEffects(S)}}render(){return this.state.run(()=>this.renderer.call(this.host,this.host))}runEffects(t){this.state._runEffects(t)}teardown(){this.state.teardown()}pause(){this._active=!1}resume(){this._active=!0}}const oe=(...e)=>{const t=new CSSStyleSheet;return t.replaceSync(e.join("")),t},Ee=e=>e?.map(t=>typeof t=="string"?oe(t):t),Re=(e,...t)=>e.flatMap((o,r)=>[o,t[r]||""]).join(""),Z=Re,Ae=(e="")=>e.replace(/-+([a-z])?/g,(t,o)=>o?o.toUpperCase():"");function Ie(e){class t extends Me{frag;renderResult;constructor(s,n,c){super(s,c||n),this.frag=n}commit(s){this.renderResult=e(s,this.frag)}}function o(r,s,n){const c=(n||s||{}).baseElement||HTMLElement,{observedAttributes:v=[],useShadowDOM:b=!0,shadowRootInit:_={},styleSheets:I}=n||s||{},l=Ee(r.styleSheets||I);class m extends c{_scheduler;static get observedAttributes(){return r.observedAttributes||v||[]}constructor(){if(super(),b===!1)this._scheduler=new t(r,this);else{const u=this.attachShadow({mode:"open",..._});l&&(u.adoptedStyleSheets=l),this._scheduler=new t(r,u,this)}}connectedCallback(){this._scheduler.resume(),this._scheduler.update(),this._scheduler.renderResult?.setConnected(!0)}disconnectedCallback(){this._scheduler.pause(),this._scheduler.teardown(),this._scheduler.renderResult?.setConnected(!1)}attributeChangedCallback(u,p,$){if(p===$)return;let y=$===""?!0:$;Reflect.set(this,Ae(u),y)}}function d(g){let u=g,p=!1;return Object.freeze({enumerable:!0,configurable:!0,get(){return u},set($){p&&u===$||(p=!0,u=$,this._scheduler&&this._scheduler.update())}})}const f=new Proxy(c.prototype,{getPrototypeOf(g){return g},set(g,u,p,$){let y;return u in g?(y=Object.getOwnPropertyDescriptor(g,u),y&&y.set?(y.set.call($,p),!0):(Reflect.set(g,u,p,$),!0)):(typeof u=="symbol"||u[0]==="_"?y={enumerable:!0,configurable:!0,writable:!0,value:p}:y=d(p),Object.defineProperty($,u,y),y.set&&y.set.call($,p),!0)}});return Object.setPrototypeOf(m.prototype,f),m}return o}class M{id;state;constructor(t,o){this.id=t,this.state=o}}function Pe(e,...t){let o=ke(),r=H[U],s=r.get(o);return s||(s=new e(o,H,...t),r.set(o,s)),s.update(...t)}function E(e){return Pe.bind(null,e)}function se(e){return E(class extends M{callback;lastValues;values;_teardown;constructor(t,o,r,s){super(t,o),e(o,this)}update(t,o){this.callback=t,this.values=o}call(){const t=!this.values||this.hasChanged();this.lastValues=this.values,t&&this.run()}run(){this.teardown(),this._teardown=this.callback.call(this.state)}teardown(t){typeof this._teardown=="function"&&(this._teardown(),this._teardown=void 0),t&&(this.lastValues=this.values=void 0)}hasChanged(){return!this.lastValues||this.values.some((t,o)=>this.lastValues[o]!==t)}})}function re(e,t){e[S].push(t)}se(re);const Te=e=>e instanceof Element?e:e.startNode||e.endNode||e.parentNode,Oe=E(class extends M{Context;value;_ranEffect;_unsubscribe;constructor(e,t,o){super(e,t),this._updater=this._updater.bind(this),this._ranEffect=!1,this._unsubscribe=null,re(t,this)}update(e){return this.Context!==e&&(this._subscribe(e),this.Context=e),this.value}call(){this._ranEffect||(this._ranEffect=!0,this._unsubscribe&&this._unsubscribe(),this._subscribe(this.Context),this.state.update())}_updater(e){this.value=e,this.state.update()}_subscribe(e){const t={Context:e,callback:this._updater};Te(this.state.host).dispatchEvent(new CustomEvent(W,{detail:t,bubbles:!0,cancelable:!0,composed:!0}));const{unsubscribe:r=null,value:s}=t;this.value=r?s:e.defaultValue,this._unsubscribe=r}teardown(){this._unsubscribe&&this._unsubscribe()}});function Be(e){return t=>{const o={Provider:class extends HTMLElement{listeners;_value;constructor(){super(),this.style.display="contents",this.listeners=new Set,this.addEventListener(W,this)}disconnectedCallback(){this.removeEventListener(W,this)}handleEvent(r){const{detail:s}=r;s.Context===o&&(s.value=this.value,s.unsubscribe=this.unsubscribe.bind(this,s.callback),this.listeners.add(s.callback),r.stopPropagation())}unsubscribe(r){this.listeners.delete(r)}set value(r){this._value=r;for(let s of this.listeners)s(r)}get value(){return this._value}},Consumer:e(function({render:r}){const s=Oe(o);return r(s)},{useShadowDOM:!1}),defaultValue:t};return o}}E(class extends M{value;values;constructor(e,t,o,r){super(e,t),this.value=o(),this.values=r}update(e,t){return this.hasChanged(t)&&(this.values=t,this.value=e()),this.value}hasChanged(e=[]){return e.some((t,o)=>this.values[o]!==t)}});function je(e,t){e[A].push(t)}se(je);E(class extends M{args;constructor(e,t,o){super(e,t),this.updater=this.updater.bind(this),typeof o=="function"&&(o=o()),this.makeArgs(o)}update(){return this.args}updater(e){const[t]=this.args;typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&(this.makeArgs(e),this.state.update())}makeArgs(e){this.args=Object.freeze([e,this.updater])}});E(class extends M{reducer;currentState;constructor(e,t,o,r,s){super(e,t),this.dispatch=this.dispatch.bind(this),this.currentState=s!==void 0?s(r):r}update(e){return this.reducer=e,[this.currentState,this.dispatch]}dispatch(e){this.currentState=this.reducer(this.currentState,e),this.state.update()}});const De=/([A-Z])/gu;E(class extends M{property;eventName;constructor(e,t,o,r){if(super(e,t),this.state.virtual)throw new Error("Can't be used with virtual components.");this.updater=this.updater.bind(this),this.property=o,this.eventName=o.replace(De,"-$1").toLowerCase()+"-changed",this.state.host[this.property]==null&&(typeof r=="function"&&(r=r()),r!=null&&this.updateProp(r))}update(e,t){return[this.state.host[this.property],this.updater]}updater(e){const t=this.state.host[this.property];typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&this.updateProp(e)}updateProp(e){this.notify(e).defaultPrevented||(this.state.host[this.property]=e)}notify(e){const t=new CustomEvent(this.eventName,{detail:{value:e,path:this.property},cancelable:!0});return this.state.host.dispatchEvent(t),t}});function Le({render:e}){const t=Ie(e),o=Be(t);return{component:t,createContext:o}}const{component:ne}=Le({render:he}),ae=oe(Z`
+`;const ye={CHILD:2},ze=e=>(...t)=>({_$litDirective$:e,values:t});class we{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,r){this._$Ct=t,this._$AM=o,this._$Ci=r}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}const Q=(e,t,o)=>{const r=new Map;for(let s=t;s<=o;s++)r.set(e[s],s);return r},xe=ze(class extends we{constructor(e){if(super(e),e.type!==ye.CHILD)throw Error("repeat() can only be used in text expressions")}dt(e,t,o){let r;o===void 0?o=t:t!==void 0&&(r=t);const s=[],n=[];let c=0;for(const v of e)s[c]=r?r(v,c):c,n[c]=o(v,c),c++;return{values:n,keys:s}}render(e,t,o){return this.dt(e,t,o).values}update(e,[t,o,r]){const s=ce(e),{values:n,keys:c}=this.dt(t,o,r);if(!Array.isArray(s))return this.ut=c,n;const v=this.ut??=[],b=[];let _,I,l=0,m=s.length-1,h=0,p=n.length-1;for(;l<=m&&h<=p;)if(s[l]===null)l++;else if(s[m]===null)m--;else if(v[l]===c[h])b[h]=C(s[l],n[h]),l++,h++;else if(v[m]===c[p])b[p]=C(s[m],n[p]),m--,p--;else if(v[l]===c[p])b[p]=C(s[l],n[p]),R(e,b[p+1],s[l]),l++,p--;else if(v[m]===c[h])b[h]=C(s[m],n[h]),R(e,s[l],s[m]),m--,h++;else if(_===void 0&&(_=Q(c,h,p),I=Q(v,l,m)),_.has(v[l]))if(_.has(v[m])){const g=I.get(c[h]),u=g!==void 0?s[g]:null;if(u===null){const f=R(e,s[l]);C(f,n[h]),b[h]=f}else b[h]=C(u,n[h]),R(e,s[l],u),s[g]=null;h++}else Y(s[m]),m--;else Y(s[l]),l++;for(;h<=p;){const g=R(e,b[p+1]);C(g,n[h]),b[h++]=g}for(;l<=m;){const g=s[l++];g!==null&&Y(g)}return this.ut=c,de(e,b),le}});let H,ee=0;function q(e){H=e}function G(){H=null,ee=0}function ke(){return ee++}const V=Symbol("haunted.phase"),U=Symbol("haunted.hook"),X=Symbol("haunted.update"),J=Symbol("haunted.commit"),S=Symbol("haunted.effects"),A=Symbol("haunted.layoutEffects"),W="haunted.context";class Ce{update;host;virtual;[U];[S];[A];constructor(t,o){this.update=t,this.host=o,this[U]=new Map,this[S]=[],this[A]=[]}run(t){q(this);let o=t();return G(),o}_runEffects(t){let o=this[t];q(this);for(let r of o)r.call(this);G()}runEffects(){this._runEffects(S)}runLayoutEffects(){this._runEffects(A)}teardown(){this[U].forEach(o=>{typeof o.teardown=="function"&&o.teardown(!0)})}}const Se=Promise.resolve().then.bind(Promise.resolve());function te(){let e=[],t;function o(){t=null;let r=e;e=[];for(var s=0,n=r.length;s<n;s++)r[s]()}return function(r){e.push(r),t==null&&(t=Se(o))}}const _e=te(),K=te();class Me{renderer;host;state;[V];_updateQueued;_active;constructor(t,o){this.renderer=t,this.host=o,this.state=new Ce(this.update.bind(this),o),this[V]=null,this._updateQueued=!1,this._active=!0}update(){this._active&&(this._updateQueued||(_e(()=>{let t=this.handlePhase(X);K(()=>{this.handlePhase(J,t),K(()=>{this.handlePhase(S)})}),this._updateQueued=!1}),this._updateQueued=!0))}handlePhase(t,o){switch(this[V]=t,t){case J:this.commit(o),this.runEffects(A);return;case X:return this.render();case S:return this.runEffects(S)}}render(){return this.state.run(()=>this.renderer.call(this.host,this.host))}runEffects(t){this.state._runEffects(t)}teardown(){this.state.teardown()}pause(){this._active=!1}resume(){this._active=!0}}const oe=(...e)=>{const t=new CSSStyleSheet;return t.replaceSync(e.join("")),t},Ee=e=>e?.map(t=>typeof t=="string"?oe(t):t),Re=(e,...t)=>e.flatMap((o,r)=>[o,t[r]||""]).join(""),Z=Re,Ae=(e="")=>e.replace(/-+([a-z])?/g,(t,o)=>o?o.toUpperCase():"");function Ie(e){class t extends Me{frag;renderResult;constructor(s,n,c){super(s,c||n),this.frag=n}commit(s){this.renderResult=e(s,this.frag)}}function o(r,s,n){const c=(n||s||{}).baseElement||HTMLElement,{observedAttributes:v=[],useShadowDOM:b=!0,shadowRootInit:_={},styleSheets:I}=n||s||{},l=Ee(r.styleSheets||I);class m extends c{_scheduler;static get observedAttributes(){return r.observedAttributes||v||[]}constructor(){if(super(),b===!1)this._scheduler=new t(r,this);else{const u=this.attachShadow({mode:"open",..._});l&&(u.adoptedStyleSheets=l),this._scheduler=new t(r,u,this)}}connectedCallback(){this._scheduler.resume(),this._scheduler.update(),this._scheduler.renderResult?.setConnected(!0)}disconnectedCallback(){this._scheduler.pause(),this._scheduler.teardown(),this._scheduler.renderResult?.setConnected(!1)}attributeChangedCallback(u,f,$){if(f===$)return;let y=$===""?!0:$;Reflect.set(this,Ae(u),y)}}function h(g){let u=g,f=!1;return Object.freeze({enumerable:!0,configurable:!0,get(){return u},set($){f&&u===$||(f=!0,u=$,this._scheduler&&this._scheduler.update())}})}const p=new Proxy(c.prototype,{getPrototypeOf(g){return g},set(g,u,f,$){let y;return u in g?(y=Object.getOwnPropertyDescriptor(g,u),y&&y.set?(y.set.call($,f),!0):(Reflect.set(g,u,f,$),!0)):(typeof u=="symbol"||u[0]==="_"?y={enumerable:!0,configurable:!0,writable:!0,value:f}:y=h(f),Object.defineProperty($,u,y),y.set&&y.set.call($,f),!0)}});return Object.setPrototypeOf(m.prototype,p),m}return o}class M{id;state;constructor(t,o){this.id=t,this.state=o}}function Pe(e,...t){let o=ke(),r=H[U],s=r.get(o);return s||(s=new e(o,H,...t),r.set(o,s)),s.update(...t)}function E(e){return Pe.bind(null,e)}function se(e){return E(class extends M{callback;lastValues;values;_teardown;constructor(t,o,r,s){super(t,o),e(o,this)}update(t,o){this.callback=t,this.values=o}call(){const t=!this.values||this.hasChanged();this.lastValues=this.values,t&&this.run()}run(){this.teardown(),this._teardown=this.callback.call(this.state)}teardown(t){typeof this._teardown=="function"&&(this._teardown(),this._teardown=void 0),t&&(this.lastValues=this.values=void 0)}hasChanged(){return!this.lastValues||this.values.some((t,o)=>this.lastValues[o]!==t)}})}function re(e,t){e[S].push(t)}se(re);const Te=e=>e instanceof Element?e:e.startNode||e.endNode||e.parentNode,Oe=E(class extends M{Context;value;_ranEffect;_unsubscribe;constructor(e,t,o){super(e,t),this._updater=this._updater.bind(this),this._ranEffect=!1,this._unsubscribe=null,re(t,this)}update(e){return this.Context!==e&&(this._subscribe(e),this.Context=e),this.value}call(){this._ranEffect||(this._ranEffect=!0,this._unsubscribe&&this._unsubscribe(),this._subscribe(this.Context),this.state.update())}_updater(e){this.value=e,this.state.update()}_subscribe(e){const t={Context:e,callback:this._updater};Te(this.state.host).dispatchEvent(new CustomEvent(W,{detail:t,bubbles:!0,cancelable:!0,composed:!0}));const{unsubscribe:r=null,value:s}=t;this.value=r?s:e.defaultValue,this._unsubscribe=r}teardown(){this._unsubscribe&&this._unsubscribe()}});function Be(e){return t=>{const o={Provider:class extends HTMLElement{listeners;_value;constructor(){super(),this.style.display="contents",this.listeners=new Set,this.addEventListener(W,this)}disconnectedCallback(){this.removeEventListener(W,this)}handleEvent(r){const{detail:s}=r;s.Context===o&&(s.value=this.value,s.unsubscribe=this.unsubscribe.bind(this,s.callback),this.listeners.add(s.callback),r.stopPropagation())}unsubscribe(r){this.listeners.delete(r)}set value(r){this._value=r;for(let s of this.listeners)s(r)}get value(){return this._value}},Consumer:e(function({render:r}){const s=Oe(o);return r(s)},{useShadowDOM:!1}),defaultValue:t};return o}}E(class extends M{value;values;constructor(e,t,o,r){super(e,t),this.value=o(),this.values=r}update(e,t){return this.hasChanged(t)&&(this.values=t,this.value=e()),this.value}hasChanged(e=[]){return e.some((t,o)=>this.values[o]!==t)}});function je(e,t){e[A].push(t)}se(je);E(class extends M{args;constructor(e,t,o){super(e,t),this.updater=this.updater.bind(this),typeof o=="function"&&(o=o()),this.makeArgs(o)}update(){return this.args}updater(e){const[t]=this.args;typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&(this.makeArgs(e),this.state.update())}makeArgs(e){this.args=Object.freeze([e,this.updater])}});E(class extends M{reducer;currentState;constructor(e,t,o,r,s){super(e,t),this.dispatch=this.dispatch.bind(this),this.currentState=s!==void 0?s(r):r}update(e){return this.reducer=e,[this.currentState,this.dispatch]}dispatch(e){this.currentState=this.reducer(this.currentState,e),this.state.update()}});const De=/([A-Z])/gu;E(class extends M{property;eventName;constructor(e,t,o,r){if(super(e,t),this.state.virtual)throw new Error("Can't be used with virtual components.");this.updater=this.updater.bind(this),this.property=o,this.eventName=o.replace(De,"-$1").toLowerCase()+"-changed",this.state.host[this.property]==null&&(typeof r=="function"&&(r=r()),r!=null&&this.updateProp(r))}update(e,t){return[this.state.host[this.property],this.updater]}updater(e){const t=this.state.host[this.property];typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&this.updateProp(e)}updateProp(e){this.notify(e).defaultPrevented||(this.state.host[this.property]=e)}notify(e){const t=new CustomEvent(this.eventName,{detail:{value:e,path:this.property},cancelable:!0});return this.state.host.dispatchEvent(t),t}});function Le({render:e}){const t=Ie(e),o=Be(t);return{component:t,createContext:o}}const{component:ne}=Le({render:he}),ae=oe(Z`
 	/*
 	 * Use border-box sizing for all elements.
 	 * This is safe and doesn't conflict with child component styles.
@@ -706,7 +706,12 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
 	:host([color='success']) ::slotted(svg) {
 		color: var(--cz-color-fg-success-secondary);
 	}
-`,Ye=e=>{const{color:t,size:o,disabled:r,removable:s}=e,n=()=>{r||e.dispatchEvent(new CustomEvent("remove"))};return i`<cosmoz-badge color=${t} size=${o} ?disabled=${r}>
+`,Ye=e=>{const{color:t,size:o,disabled:r,removable:s}=e,n=()=>{r||e.dispatchEvent(new CustomEvent("remove"))};return i`<cosmoz-badge
+		color=${d(t)}
+		size=${d(o)}
+		?disabled=${r}
+		type="modern"
+	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
 		<slot name="suffix" slot="suffix"></slot>
@@ -821,10 +826,10 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
                 <h1 class="story-section-title">Suffix + Close</h1>
                 <div class="story-row">
                     <cosmoz-tag removable color="success">
-                        ${pe({slot:"suffix"})} Success
+                        ${fe({slot:"suffix"})} Success
                     </cosmoz-tag>
                     <cosmoz-tag removable color="warning">
-                        ${fe({slot:"suffix"})} Warning
+                        ${pe({slot:"suffix"})} Warning
                     </cosmoz-tag>
                     <cosmoz-tag removable color="error">
                         ${ve({slot:"suffix"})} Error
