@@ -1,4 +1,4 @@
-import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-C0K5j2Zr.js";import"./preload-helper-PPVm8Dsz.js";const d=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
+import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}from"./iframe-DSFQTgWC.js";import"./preload-helper-PPVm8Dsz.js";const d=e=>e??ie;function z(e,t,o){return e?t(e):o?.(e)}const P=({slot:e,title:t,className:o,width:r="24",height:s="24",styles:n}={})=>i`
   <svg
     slot=${d(e)}
     class=${`arrow-right-icon ${o??""}`}
@@ -432,8 +432,12 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
 		white-space: nowrap;
 		font-family: var(--cz-font-body);
 		font-weight: var(--cz-font-weight-medium);
-		border: 1px solid var(--cz-color-border-secondary);
-		background-color: var(--cz-color-bg-secondary);
+		border: 1px solid
+			var(--cosmoz-badge-border-color, var(--cz-color-border-secondary));
+		background-color: var(
+			--cosmoz-badge-bg-color,
+			var(--cz-color-bg-secondary)
+		);
 		color: var(--cz-color-text-secondary);
 		border-radius: var(--cz-radius-full);
 		padding: ${a(.5)} ${a(2)};
@@ -447,7 +451,7 @@ import{A as ie,b as i,w,M as ce,u as C,v as R,h as Y,E as le,p as de,D as he}fro
 
 	:host([color='brand']) .badge {
 		background-color: var(--cz-color-bg-brand);
-		color: var(--cz-color-text-on-brand);
+		color: var(--cz-color-text-secondary);
 		border-color: var(--cz-color-brand-200);
 	}
 
