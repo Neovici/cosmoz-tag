@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/Neovici/cosmoz-tag/compare/v1.2.0...v1.3.0) (2026-04-21)
+
+### Features
+
+* **deps:** update cosmoz-badge with css custom properties support ([#10](https://github.com/Neovici/cosmoz-tag/issues/10)) ([d234006](https://github.com/Neovici/cosmoz-tag/commit/d234006de27501eb0d8873d76858a8f1561dc4d2))
+
 ## [1.2.0](https://github.com/Neovici/cosmoz-tag/compare/v1.1.0...v1.2.0) (2026-04-03)
 
 ### Features
