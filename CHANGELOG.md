@@ -1,14 +1,20 @@
 ## [1.3.0](https://github.com/Neovici/cosmoz-tag/compare/v1.2.0...v1.3.0) (2026-04-21)
 
+## 1.3.1
+
+### Patch Changes
+
+- 46c0155: Migrate from semantic-release to changesets
+
 ### Features
 
-* **deps:** update cosmoz-badge with css custom properties support ([#10](https://github.com/Neovici/cosmoz-tag/issues/10)) ([d234006](https://github.com/Neovici/cosmoz-tag/commit/d234006de27501eb0d8873d76858a8f1561dc4d2))
+- **deps:** update cosmoz-badge with css custom properties support ([#10](https://github.com/Neovici/cosmoz-tag/issues/10)) ([d234006](https://github.com/Neovici/cosmoz-tag/commit/d234006de27501eb0d8873d76858a8f1561dc4d2))
 
 ## [1.2.0](https://github.com/Neovici/cosmoz-tag/compare/v1.1.0...v1.2.0) (2026-04-03)
 
 ### Features
 
-* set type color ([281f4b8](https://github.com/Neovici/cosmoz-tag/commit/281f4b829273ec895a6e17a859137942c4714c44))
+- set type color ([281f4b8](https://github.com/Neovici/cosmoz-tag/commit/281f4b829273ec895a6e17a859137942c4714c44))
 
 # Changelog
 
