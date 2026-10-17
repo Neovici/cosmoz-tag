@@ -2,4 +2,4 @@
 '@neovici/cosmoz-tag': minor
 ---
 
-Render action and utility controls with cosmoz-button while preserving their layout, callbacks, disabled states and keyboard focus.
+Render the remove control with a tertiary icon-only `cosmoz-button`, preserving compact sizing, the accessible name, keyboard focus and remove events.
