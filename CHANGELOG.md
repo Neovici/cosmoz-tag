@@ -1,5 +1,11 @@
 ## [1.3.0](https://github.com/Neovici/cosmoz-tag/compare/v1.2.0...v1.3.0) (2026-04-21)
 
+## 1.4.0
+
+### Minor Changes
+
+- 31048dc: Render the remove control with a tertiary icon-only `cosmoz-button`, preserving compact sizing, the accessible name, keyboard focus and remove events.
+
 ## 1.3.1
 
 ### Patch Changes
