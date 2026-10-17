@@ -1,4 +1,4 @@
-import{A as N,b as c,w as _,M as Me,u as M,v as L,h as ee,E as Re,p as Te,r as Ie,D as ye}from"./iframe-Bs919n2Z.js";import"./preload-helper-PPVm8Dsz.js";const h=e=>e??N;function y(e,t,o){return e?t(e):o?.(e)}const B=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
+import{A as N,b as c,w as _,M as Me,u as M,v as L,h as ee,E as Re,p as Te,r as Ie,D as ye}from"./iframe-LBPC5vDs.js";import"./preload-helper-PPVm8Dsz.js";const h=e=>e??N;function y(e,t,o){return e?t(e):o?.(e)}const B=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
     slot=${h(e)}
     class=${`arrow-right-icon ${o??""}`}
