@@ -1,4 +1,5 @@
 import '@neovici/cosmoz-badge';
+import '@neovici/cosmoz-button';
 import { xCloseIcon } from '@neovici/cosmoz-icons/untitled';
 import { normalize } from '@neovici/cosmoz-tokens/normalize';
 import { component, html } from '@pionjs/pion';
@@ -48,7 +49,9 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		${when(
 			removable,
 			() =>
-				html` <button
+				html` <cosmoz-button
+					variant="tertiary"
+					icon-only
 					slot="suffix"
 					class="close"
 					aria-label="Remove"
@@ -56,7 +59,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 					@click=${handleRemove}
 				>
 					${xCloseIcon()}
-				</button>`,
+				</cosmoz-button>`,
 		)}
 	</cosmoz-badge>`;
 };

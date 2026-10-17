@@ -1,8 +1,6 @@
 import { css } from '@pionjs/pion';
-
 /* Spacing helper based on --cz-spacing (0.25rem = 4px) */
 const sp = (n: number) => `calc(var(--cz-spacing) * ${n})`;
-
 /**
  * Tag-specific styles. Badge base styles come from cosmoz-badge.
  */
@@ -22,7 +20,8 @@ export const styles = css`
 	/* =========================================
 	 * REMOVE BUTTON
 	 * ========================================= */
-	.close {
+	cosmoz-button.close::part(button),
+	.close:not(cosmoz-button) {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
@@ -36,13 +35,21 @@ export const styles = css`
 		flex-shrink: 0;
 		border-radius: var(--cz-radius-full);
 		line-height: 0;
+
+		height: auto;
+	}
+	cosmoz-button.close {
+		display: inline-flex;
+		flex-shrink: 0;
 	}
 
-	.close:hover {
+	cosmoz-button.close::part(button):hover,
+	.close:hover:not(cosmoz-button) {
 		opacity: 1;
 	}
 
-	.close:focus-visible {
+	cosmoz-button.close::part(button):focus-visible,
+	.close:focus-visible:not(cosmoz-button) {
 		outline: 2px solid currentColor;
 		outline-offset: 1px;
 	}
