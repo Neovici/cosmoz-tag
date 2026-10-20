@@ -36,6 +36,7 @@ export const styles = css`
 		border-radius: var(--cz-radius-full);
 		line-height: 0;
 
+		width: auto;
 		height: auto;
 	}
 	cosmoz-button.close {
