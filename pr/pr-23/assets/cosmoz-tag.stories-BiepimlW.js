@@ -1,4 +1,4 @@
-import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt,D as $t}from"./iframe-DLdRG6TL.js";import"./preload-helper-PPVm8Dsz.js";const i=t=>t??O;function y(t,e,o){return t?e(t):o?.(t)}const F=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt,D as $t}from"./iframe-CkyvMSZ2.js";import"./preload-helper-PPVm8Dsz.js";const i=t=>t??O;function y(t,e,o){return t?e(t):o?.(t)}const F=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
   <svg
     slot=${i(t)}
     class=${`arrow-right-icon ${o??""}`}
@@ -1216,6 +1216,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 		border-radius: var(--cz-radius-full);
 		line-height: 0;
 
+		width: auto;
 		height: auto;
 	}
 	cosmoz-button.close {
