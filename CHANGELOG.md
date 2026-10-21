@@ -1,4 +1,9 @@
-## [1.3.0](https://github.com/Neovici/cosmoz-tag/compare/v1.2.0...v1.3.0) (2026-04-21)
+## 1.4.1
+
+### Patch Changes
+
+- 0dba870: Keep removable tags compact by sizing the remove button to its icon instead of inheriting the standard icon-button width.
+- f5953a4: Update `@neovici/cosmoz-tokens` to `^4.14.0`.
 
 ## 1.4.0
 
