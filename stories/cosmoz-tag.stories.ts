@@ -12,6 +12,7 @@ import {
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit-html';
 import { repeat } from 'lit-html/directives/repeat.js';
+import { expect, waitFor } from 'storybook/test';
 import '../src/cosmoz-tag';
 
 const colors = ['gray', 'brand', 'error', 'warning', 'success'] as const;
@@ -37,6 +38,12 @@ const meta: Meta = {
 			options: [...colors],
 			description: 'Tag color scheme',
 			table: { defaultValue: { summary: 'gray' } },
+		},
+		type: {
+			control: 'select',
+			options: ['color', 'pill'],
+			description: 'Tag shape',
+			table: { defaultValue: { summary: 'color' } },
 		},
 		size: {
 			control: 'select',
@@ -115,6 +122,57 @@ export const Colors: Story = {
 				story: 'All available color variants for the tag.',
 			},
 		},
+	},
+};
+
+export const Pills: Story = {
+	render: () => html`
+		<div class="story-row">
+			${['#7c3aed', '#db2777', '#0891b2', '#65a30d'].map(
+				(c) =>
+					html`<cosmoz-tag type="pill" size="sm" removable color=${c}
+						>${c}</cosmoz-tag
+					>`,
+			)}
+		</div>
+	`,
+	parameters: {
+		docs: {
+			description: {
+				story:
+					'Pill-shaped tags tinted from any CSS color, e.g. user-defined labels.',
+			},
+		},
+	},
+	play: async ({ canvasElement }) => {
+		const tag = canvasElement.querySelector('cosmoz-tag')!;
+		const badge = () => tag.shadowRoot!.querySelector('cosmoz-badge')!;
+		const radius = () =>
+			parseFloat(
+				getComputedStyle(badge().shadowRoot!.querySelector('.badge')!)
+					.borderTopLeftRadius,
+			);
+		await waitFor(() => expect(badge().getAttribute('type')).toBe('pill'));
+		const pill = radius();
+		tag.setAttribute('type', 'color');
+		await waitFor(() => expect(badge().getAttribute('type')).toBe('color'));
+		await waitFor(() => expect(radius()).toBeLessThan(pill));
+	},
+};
+
+export const CustomColorIcon: Story = {
+	tags: ['!autodocs'],
+	render: () =>
+		html`<cosmoz-tag color="#ff0000"
+			><svg slot="prefix" viewBox="0 0 10 10">
+				<circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg
+			>Red</cosmoz-tag
+		>`,
+	play: async ({ canvasElement }) => {
+		const svg = canvasElement.querySelector('svg')!;
+		await waitFor(() =>
+			expect(getComputedStyle(svg).color).toBe('rgb(255, 0, 0)'),
+		);
 	},
 };
 
