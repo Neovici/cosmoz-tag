@@ -13,6 +13,9 @@ import { type UseTagProps } from './use-tag';
  *
  * @element cosmoz-tag
  *
+ * @attr {string} type - Shape: color (default, rounded rectangle) or pill
+ * @attr {string} color - gray (default), brand, error, warning, success, or any CSS color
+ *
  * @slot - Default slot for tag label text
  * @slot prefix - Slot for content before text (icons, avatars, flags)
  * @slot suffix - Slot for content after text (icons)
@@ -30,7 +33,14 @@ import { type UseTagProps } from './use-tag';
  * ```
  */
 const CosmozTag = (host: HTMLElement & UseTagProps) => {
-	const { color, size, disabled, removable, removeLabel = 'Remove' } = host;
+	const {
+		color,
+		type = 'color',
+		size,
+		disabled,
+		removable,
+		removeLabel = 'Remove',
+	} = host;
 
 	const handleRemove = () => {
 		if (disabled) return;
@@ -41,7 +51,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		color=${ifDefined(color)}
 		size=${ifDefined(size)}
 		?disabled=${disabled}
-		type="color"
+		type=${type}
 	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
@@ -67,7 +77,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 customElements.define(
 	'cosmoz-tag',
 	component(CosmozTag, {
-		observedAttributes: ['color', 'size', 'disabled', 'removable'],
+		observedAttributes: ['color', 'type', 'size', 'disabled', 'removable'],
 		styleSheets: [normalize, styles],
 	}),
 );

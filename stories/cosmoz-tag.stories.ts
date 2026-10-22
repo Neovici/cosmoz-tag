@@ -12,6 +12,7 @@ import {
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit-html';
 import { repeat } from 'lit-html/directives/repeat.js';
+import { expect, waitFor } from 'storybook/test';
 import '../src/cosmoz-tag';
 
 const colors = ['gray', 'brand', 'error', 'warning', 'success'] as const;
@@ -115,6 +116,35 @@ export const Colors: Story = {
 				story: 'All available color variants for the tag.',
 			},
 		},
+	},
+};
+
+export const Pills: Story = {
+	render: () => html`
+		<div class="story-row">
+			${['#7c3aed', '#db2777', '#0891b2', '#65a30d'].map(
+				(c) =>
+					html`<cosmoz-tag type="pill" size="sm" removable color=${c}
+						>${c}</cosmoz-tag
+					>`,
+			)}
+		</div>
+	`,
+	parameters: {
+		docs: {
+			description: {
+				story:
+					'Pill-shaped tags tinted from any CSS color, e.g. user-defined labels.',
+			},
+		},
+	},
+	play: async ({ canvasElement }) => {
+		const tag = canvasElement.querySelector('cosmoz-tag')!;
+		await waitFor(() =>
+			expect(
+				tag.shadowRoot!.querySelector('cosmoz-badge')!.getAttribute('type'),
+			).toBe('pill'),
+		);
 	},
 };
 
