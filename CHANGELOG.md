@@ -1,3 +1,9 @@
+## 1.5.0
+
+### Minor Changes
+
+- 47598e3: The remove button's accessible name is configurable via `remove-label`; default stays `Remove`.
+
 ## 1.4.1
 
 ### Patch Changes
