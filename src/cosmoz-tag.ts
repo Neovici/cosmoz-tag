@@ -30,7 +30,7 @@ import { type UseTagProps } from './use-tag';
  * ```
  */
 const CosmozTag = (host: HTMLElement & UseTagProps) => {
-	const { color, size, disabled, removable } = host;
+	const { color, size, disabled, removable, removeLabel = 'Remove' } = host;
 
 	const handleRemove = () => {
 		if (disabled) return;
@@ -54,7 +54,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 					icon-only
 					slot="suffix"
 					class="close"
-					aria-label="Remove"
+					aria-label=${removeLabel}
 					@mousedown=${(e: Event) => e.preventDefault()}
 					@click=${handleRemove}
 				>

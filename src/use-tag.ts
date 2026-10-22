@@ -3,4 +3,5 @@ export interface UseTagProps {
 	size?: string;
 	disabled?: boolean;
 	removable?: boolean;
+	removeLabel?: string;
 }
