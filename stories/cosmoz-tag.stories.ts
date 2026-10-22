@@ -39,6 +39,12 @@ const meta: Meta = {
 			description: 'Tag color scheme',
 			table: { defaultValue: { summary: 'gray' } },
 		},
+		type: {
+			control: 'select',
+			options: ['color', 'pill'],
+			description: 'Tag shape',
+			table: { defaultValue: { summary: 'color' } },
+		},
 		size: {
 			control: 'select',
 			options: ['sm', 'md', 'lg'],
@@ -140,10 +146,32 @@ export const Pills: Story = {
 	},
 	play: async ({ canvasElement }) => {
 		const tag = canvasElement.querySelector('cosmoz-tag')!;
+		const badge = () => tag.shadowRoot!.querySelector('cosmoz-badge')!;
+		const radius = () =>
+			parseFloat(
+				getComputedStyle(badge().shadowRoot!.querySelector('.badge')!)
+					.borderTopLeftRadius,
+			);
+		await waitFor(() => expect(badge().getAttribute('type')).toBe('pill'));
+		const pill = radius();
+		tag.setAttribute('type', 'color');
+		await waitFor(() => expect(badge().getAttribute('type')).toBe('color'));
+		await waitFor(() => expect(radius()).toBeLessThan(pill));
+	},
+};
+
+export const CustomColorIcon: Story = {
+	tags: ['!autodocs'],
+	render: () =>
+		html`<cosmoz-tag color="#ff0000"
+			><svg slot="prefix" viewBox="0 0 10 10">
+				<circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg
+			>Red</cosmoz-tag
+		>`,
+	play: async ({ canvasElement }) => {
+		const svg = canvasElement.querySelector('svg')!;
 		await waitFor(() =>
-			expect(
-				tag.shadowRoot!.querySelector('cosmoz-badge')!.getAttribute('type'),
-			).toBe('pill'),
+			expect(getComputedStyle(svg).color).toBe('rgb(255, 0, 0)'),
 		);
 	},
 };

@@ -31,12 +31,13 @@ Use in HTML:
 
 ## Attributes
 
-| Attribute   | Type    | Default | Description                                        |
-| ----------- | ------- | ------- | -------------------------------------------------- |
-| `color`     | string  | `gray`  | Color scheme: gray, brand, error, warning, success |
-| `size`      | string  | `md`    | Size: sm, md, lg                                   |
-| `removable` | boolean | `false` | Show remove (X) button                             |
-| `disabled`  | boolean | `false` | Disabled state (non-interactive, visually muted)   |
+| Attribute   | Type    | Default | Description                                                                           |
+| ----------- | ------- | ------- | ------------------------------------------------------------------------------------- |
+| `color`     | string  | `gray`  | Color scheme: gray, brand, error, warning, success, or any CSS color (e.g. `#7c3aed`) |
+| `type`      | string  | `color` | Shape: `color` (rounded rectangle) or `pill`                                          |
+| `size`      | string  | `md`    | Size: sm, md, lg                                                                      |
+| `removable` | boolean | `false` | Show remove (X) button                                                                |
+| `disabled`  | boolean | `false` | Disabled state (non-interactive, visually muted)                                      |
 
 ## Events
 

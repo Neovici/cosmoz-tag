@@ -77,7 +77,7 @@ export const styles = css`
 	::slotted(svg) {
 		width: ${sp(3.5)};
 		height: ${sp(3.5)};
-		color: var(--cz-color-fg-quaternary);
+		color: var(--cosmoz-tag-color, var(--cz-color-fg-quaternary));
 	}
 
 	:host([color='brand']) ::slotted(svg) {

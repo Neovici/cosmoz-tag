@@ -2,11 +2,13 @@ import '@neovici/cosmoz-badge';
 import '@neovici/cosmoz-button';
 import { xCloseIcon } from '@neovici/cosmoz-icons/untitled';
 import { normalize } from '@neovici/cosmoz-tokens/normalize';
-import { component, html } from '@pionjs/pion';
+import { component, html, useLayoutEffect } from '@pionjs/pion';
 import { ifDefined } from 'lit-html/directives/if-defined.js';
 import { when } from 'lit-html/directives/when.js';
 import { styles } from './styles';
 import { type UseTagProps } from './use-tag';
+
+const NAMED = ['gray', 'brand', 'error', 'warning', 'success', 'processing'];
 
 /**
  * An interactive tag component built on cosmoz-badge.
@@ -41,6 +43,14 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		removable,
 		removeLabel = 'Remove',
 	} = host;
+
+	// Icons are re-slotted into the badge, out of reach of its custom-color
+	// styles, so the tag colors them itself.
+	useLayoutEffect(() => {
+		const custom =
+			!!color && !NAMED.includes(color) && CSS.supports('color', color);
+		host.style.setProperty('--cosmoz-tag-color', custom ? color : '');
+	}, [color]);
 
 	const handleRemove = () => {
 		if (disabled) return;
