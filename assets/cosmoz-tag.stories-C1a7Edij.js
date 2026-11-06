@@ -1,6 +1,6 @@
-import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt,D as $t}from"./iframe-BkYnyvN4.js";import"./preload-helper-PPVm8Dsz.js";const i=t=>t??O;function y(t,e,o){return t?e(t):o?.(t)}const F=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as Fe,D as Ce}from"./iframe-3PVjnAPZ.js";import"./preload-helper-PPVm8Dsz.js";const i=e=>e??O;function y(e,t,o){return e?t(e):o?.(e)}const j=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`arrow-right-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -14,12 +14,12 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path d="M5 12h14m0 0-7-7m7 7-7 7" />
   </svg>
-`,tt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,re=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`arrow-up-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -33,12 +33,12 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path d="M12 19V5m0 0-7 7m7-7 7 7" />
   </svg>
-`,Lt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,Ne=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`battery-full-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -52,14 +52,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M6.5 10v4m4-4v4m4-4v4m7.5-1v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
   </svg>
-`,Bt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,je=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`battery-low-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -73,14 +73,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M6.5 10v4M22 13v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
   </svg>
-`,Dt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,He=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`battery-mid-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -94,14 +94,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M6.5 10v4m4-4v4M22 13v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
   </svg>
-`,Ot=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,Ue=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`bell-minus-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -115,14 +115,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M9.354 21c.705.622 1.632 1 2.646 1s1.94-.378 2.646-1M15 5h6m-8-2.916A6 6 0 0 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.089 1.936.015.182.054.252.2.36.133.099.732.099 1.928.099H18.61c1.197 0 1.795 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.087-1.935-.774-1.243-1.476-3.052-1.623-5.606"
     />
   </svg>
-`,Nt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,qe=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`bell-plus-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -136,14 +136,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M9.354 21c.705.622 1.632 1 2.646 1s1.94-.378 2.646-1M18 8V2m-3 3h6m-8-2.916A6 6 0 0 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.089 1.936.015.182.054.252.2.36.133.099.732.099 1.928.099H18.61c1.196 0 1.794 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.088-1.936-.492-.79-.955-1.81-1.264-3.105"
     />
   </svg>
-`,jt=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,Ye=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`bell-ringing-01-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -157,14 +157,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M9.354 21A3.99 3.99 0 0 0 12 22c1.015 0 1.94-.378 2.646-1M2.294 5.82A4.007 4.007 0 0 1 4.326 2.3m17.376 3.52A4.007 4.007 0 0 0 19.67 2.3M18 8A6 6 0 1 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.088 1.936.014.182.053.252.2.36.133.099.73.099 1.927.099h13.222c1.197 0 1.795 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.087-1.936C18.78 13.206 18 11.09 18 8Z"
     />
   </svg>
-`,Ft=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,Ge=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`bell-ringing-03-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -178,14 +178,14 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path
       d="M15 19a3 3 0 1 1-6 0m4.797-12.761a2.5 2.5 0 1 0-3.593 0M2.547 8.323a4.007 4.007 0 0 1 2.032-3.52m16.874 3.52a4.007 4.007 0 0 0-2.032-3.52m-1.42 6.397c0-1.38-.633-2.702-1.758-3.677C15.118 6.548 13.592 6 12 6c-1.591 0-3.117.548-4.242 1.523C6.632 8.498 6 9.821 6 11.2c0 2.282-.566 3.95-1.272 5.145-.804 1.36-1.207 2.041-1.19 2.204.017.186.05.244.202.355.131.096.794.096 2.118.096h12.284c1.325 0 1.987 0 2.119-.096.15-.11.184-.17.202-.355.016-.163-.386-.843-1.19-2.204C18.565 15.15 18 13.482 18 11.2Z"
     />
   </svg>
-`,Ht=({slot:t,title:e,className:o,width:s="24",height:r="24",styles:n}={})=>l`
+`,Ve=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
-    slot=${i(t)}
+    slot=${i(e)}
     class=${`x-close-icon ${o??""}`}
     viewBox="0 0 24 24"
     preserveAspectRatio="xMidYMid meet"
@@ -199,10 +199,10 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
     height=${r}
     style=${i(n)}
   >
-    ${y(e,()=>C`<title>${e}</title>`)}
+    ${y(t,()=>C`<title>${t}</title>`)}
     <path d="M18 6 6 18M6 6l12 12" />
   </svg>
-`;const xt={CHILD:2},wt=t=>(...e)=>({_$litDirective$:t,values:e});class kt{constructor(e){}get _$AU(){return this._$AM._$AU}_$AT(e,o,s){this._$Ct=e,this._$AM=o,this._$Ci=s}_$AS(e,o){return this.update(e,o)}update(e,o){return this.render(...o)}}const ht=(t,e,o)=>{const s=new Map;for(let r=e;r<=o;r++)s.set(t[r],r);return s},Ut=wt(class extends kt{constructor(t){if(super(t),t.type!==xt.CHILD)throw Error("repeat() can only be used in text expressions")}dt(t,e,o){let s;o===void 0?o=e:e!==void 0&&(s=e);const r=[],n=[];let u=0;for(const p of t)r[u]=s?s(p,u):u,n[u]=o(p,u),u++;return{values:n,keys:r}}render(t,e,o){return this.dt(t,e,o).values}update(t,[e,o,s]){const r=Tt(t),{values:n,keys:u}=this.dt(e,o,s);if(!Array.isArray(r))return this.ut=u,n;const p=this.ut??=[],g=[];let $,w,d=0,h=r.length-1,c=0,v=n.length-1;for(;d<=h&&c<=v;)if(r[d]===null)d++;else if(r[h]===null)h--;else if(p[d]===u[c])g[c]=M(r[d],n[c]),d++,c++;else if(p[h]===u[v])g[v]=M(r[h],n[v]),h--,v--;else if(p[d]===u[v])g[v]=M(r[d],n[v]),L(t,g[v+1],r[d]),d++,v--;else if(p[h]===u[c])g[c]=M(r[h],n[c]),L(t,r[d],r[h]),h--,c++;else if($===void 0&&($=ht(u,c,v),w=ht(p,d,h)),$.has(p[d]))if($.has(p[h])){const f=w.get(u[c]),m=f!==void 0?r[f]:null;if(m===null){const b=L(t,r[d]);M(b,n[c]),g[c]=b}else g[c]=M(m,n[c]),L(t,r[d],m),r[f]=null;c++}else J(r[h]),h--;else J(r[d]),d++;for(;c<=v;){const f=L(t,g[v+1]);M(f,n[c]),g[c++]=f}for(;d<=h;){const f=r[d++];f!==null&&J(f)}return this.ut=u,It(t,g),Rt}});let X,Ct=0;function pt(t){X=t}function gt(){X=null,Ct=0}function Yt(){return Ct++}const et=Symbol("haunted.phase"),Q=Symbol("haunted.hook"),mt=Symbol("haunted.update"),vt=Symbol("haunted.commit"),T=Symbol("haunted.effects"),B=Symbol("haunted.layoutEffects"),rt="haunted.context";class Gt{update;host;virtual;[Q];[T];[B];constructor(e,o){this.update=e,this.host=o,this[Q]=new Map,this[T]=[],this[B]=[]}run(e){pt(this);let o=e();return gt(),o}_runEffects(e){let o=this[e];pt(this);for(let s of o)s.call(this);gt()}runEffects(){this._runEffects(T)}runLayoutEffects(){this._runEffects(B)}teardown(){this[Q].forEach(o=>{typeof o.teardown=="function"&&o.teardown(!0)})}}class Vt extends Error{constructor(e){const o=e?` <${e}>`:"";super(`Infinite update loop detected in component${o}. This usually means a hook (useEffect, useMemo, useCallback) has dependencies that create new references on every render, such as [{}], [[]], or [Promise.resolve()]. Make sure your dependency arrays contain stable references.`),this.name="InfiniteLoopError"}}const Wt=100,qt=Promise.resolve().then.bind(Promise.resolve());function _t(){let t=[],e;function o(){e=null;let s=t;t=[];for(var r=0,n=s.length;r<n;r++)s[r]()}return function(s){t.push(s),e==null&&(e=qt(o))}}const Qt=_t(),ft=_t();class at{renderer;host;state;[et];_updateQueued;_active;_updateCount;_processing;static maxUpdates=Wt;constructor(e,o){this.renderer=e,this.host=o,this.state=new Gt(this.update.bind(this),o),this[et]=null,this._updateQueued=!1,this._active=!1,this._updateCount=0,this._processing=!1}_checkForInfiniteLoop(){if(this._processing||(this._updateCount=0),this._updateCount++,this._updateCount>at.maxUpdates){const e=this.host instanceof HTMLElement?this.host.tagName.toLowerCase():void 0;throw this._active=!1,new Vt(e)}}update(){this._active&&(this._updateQueued||(this._checkForInfiniteLoop(),this._processing=!0,Qt(()=>{let e=this.handlePhase(mt);ft(()=>{this.handlePhase(vt,e),ft(()=>{this.handlePhase(T),this._updateQueued||(this._processing=!1)})}),this._updateQueued=!1}),this._updateQueued=!0))}handlePhase(e,o){switch(this[et]=e,e){case vt:this.commit(o),this.runEffects(B);return;case mt:return this.render();case T:return this.runEffects(T)}}render(){return this.state.run(()=>this.renderer.call(this.host,this.host))}runEffects(e){this.state._runEffects(e)}teardown(){this.state.teardown(),this._updateCount=0,this._processing=!1}pause(){this._active=!1}resume(){this._active=!0,this._updateCount=0}}const it=(...t)=>{const e=new CSSStyleSheet;return e.replaceSync(t.join("")),e},Zt=t=>t?.map(e=>typeof e=="string"?it(e):e),Xt=(t,...e)=>t.flatMap((o,s)=>[o,e[s]||""]).join(""),R=Xt,Kt=(t="")=>t.replace(/-+([a-z])?/g,(e,o)=>o?o.toUpperCase():"");function Jt(t){class e extends at{frag;renderResult;constructor(r,n,u){super(r,u||n),this.frag=n}commit(r){this.renderResult=t(r,this.frag)}}function o(s,r,n){const u=(n||r||{}).baseElement||HTMLElement,{observedAttributes:p=[],useShadowDOM:g=!0,shadowRootInit:$={},styleSheets:w}=n||r||{},d=Zt(s.styleSheets||w);class h extends u{_scheduler;static get observedAttributes(){return s.observedAttributes||p||[]}constructor(){if(super(),g===!1)this._scheduler=new e(s,this);else{const m=this.attachShadow({mode:"open",...$});d&&(m.adoptedStyleSheets=d),this._scheduler=new e(s,m,this)}}connectedCallback(){super.connectedCallback?.(),this._scheduler.resume(),this._scheduler.update(),this._scheduler.renderResult?.setConnected(!0)}disconnectedCallback(){super.disconnectedCallback?.(),this._scheduler.pause(),this._scheduler.teardown(),this._scheduler.renderResult?.setConnected(!1)}attributeChangedCallback(m,b,z){if(b===z)return;let x=z===""?!0:z;Reflect.set(this,Kt(m),x)}}function c(f){let m=f,b=!1;return Object.freeze({enumerable:!0,configurable:!0,get(){return m},set(z){b&&m===z||(b=!0,m=z,this._scheduler&&this._scheduler.update())}})}const v=new Proxy(u.prototype,{getPrototypeOf(f){return f},set(f,m,b,z){let x;return m in f?(x=Object.getOwnPropertyDescriptor(f,m),x&&x.set?(x.set.call(z,b),z._scheduler?.update(),!0):(Reflect.set(f,m,b,z),z._scheduler?.update(),!0)):(typeof m=="symbol"||m[0]==="_"?x={enumerable:!0,configurable:!0,writable:!0,value:b}:x=c(b),Object.defineProperty(z,m,x),x.set&&x.set.call(z,b),!0)}});return Object.setPrototypeOf(h.prototype,v),h}return o}class I{id;state;constructor(e,o){this.id=e,this.state=o}}function te(t,...e){let o=Yt(),s=X[Q],r=s.get(o);return r||(r=new t(o,X,...e),s.set(o,r)),r.update(...e)}function P(t){return te.bind(null,t)}function At(t){return P(class extends I{callback;lastValues;values;_teardown;constructor(e,o,s,r){super(e,o),t(o,this)}update(e,o){this.callback=e,this.values=o}call(){const e=!this.values||this.hasChanged();this.lastValues=this.values,e&&this.run()}run(){this.teardown(),this._teardown=this.callback.call(this.state)}teardown(e){typeof this._teardown=="function"&&(this._teardown(),this._teardown=void 0),e&&(this.lastValues=this.values=void 0)}hasChanged(){return!this.lastValues||this.values.some((e,o)=>this.lastValues[o]!==e)}})}function St(t,e){t[T].push(e)}const S=At(St),ee=t=>t instanceof Element?t:t.startNode||t.endNode||t.parentNode,oe=P(class extends I{Context;value;_ranEffect;_unsubscribe;constructor(t,e,o){super(t,e),this._updater=this._updater.bind(this),this._ranEffect=!1,this._unsubscribe=null,St(e,this)}update(t){return this.Context!==t&&(this._subscribe(t),this.Context=t),this.value}call(){this._ranEffect||(this._ranEffect=!0,this._unsubscribe&&this._unsubscribe(),this._subscribe(this.Context),this.state.update())}_updater(t){this.value=t,this.state.update()}_subscribe(t){const e={Context:t,callback:this._updater};ee(this.state.host).dispatchEvent(new CustomEvent(rt,{detail:e,bubbles:!0,cancelable:!0,composed:!0}));const{unsubscribe:s=null,value:r}=e;this.value=s?r:t.defaultValue,this._unsubscribe=s}teardown(){this._unsubscribe&&this._unsubscribe()}});function se(t){return e=>{const o={Provider:class extends HTMLElement{listeners;_value;constructor(){super(),this.style.display="contents",this.listeners=new Set,this.addEventListener(rt,this)}disconnectedCallback(){this.removeEventListener(rt,this)}handleEvent(s){const{detail:r}=s;r.Context===o&&(r.value=this.value,r.unsubscribe=this.unsubscribe.bind(this,r.callback),this.listeners.add(r.callback),s.stopPropagation())}unsubscribe(s){this.listeners.delete(s)}set value(s){this._value=s;for(let r of this.listeners)r(s)}get value(){return this._value}},Consumer:t(function({render:s}){const r=oe(o);return s(r)},{useShadowDOM:!1}),defaultValue:e};return o}}const Et=P(class extends I{value;values;constructor(t,e,o,s){super(t,e),this.value=o(),this.values=s}update(t,e){return this.hasChanged(e)&&(this.values=e,this.value=t()),this.value}hasChanged(t=[]){return t.some((e,o)=>this.values[o]!==e)}}),bt=(t,e)=>Et(()=>t,e);function re(t,e){t[B].push(e)}const ne=At(re),ae=P(class extends I{args;constructor(t,e,o){super(t,e),this.updater=this.updater.bind(this),typeof o=="function"&&(o=o()),this.makeArgs(o)}update(){return this.args}updater(t){const[e]=this.args;typeof t=="function"&&(t=t(e)),!Object.is(e,t)&&(this.makeArgs(t),this.state.update())}makeArgs(t){this.args=Object.freeze([t,this.updater])}});P(class extends I{reducer;currentState;constructor(t,e,o,s,r){super(t,e),this.dispatch=this.dispatch.bind(this),this.currentState=r!==void 0?r(s):s}update(t){return this.reducer=t,[this.currentState,this.dispatch]}dispatch(t){this.currentState=this.reducer(this.currentState,t),this.state.update()}});const ie=/([A-Z])/gu;P(class extends I{property;eventName;constructor(t,e,o,s){if(super(t,e),this.state.virtual)throw new Error("Can't be used with virtual components.");this.updater=this.updater.bind(this),this.property=o,this.eventName=o.replace(ie,"-$1").toLowerCase()+"-changed",this.state.host[this.property]==null&&(typeof s=="function"&&(s=s()),s!=null&&this.updater(s,!0))}update(t,e){return[this.state.host[this.property],this.updater]}resolve(t){const e=this.state.host[this.property],o=typeof t=="function"?t:void 0,s=o?o(e):t;return[e,s,o]}notify(t,e){const o=new CustomEvent(this.eventName,{detail:{value:t,updater:e,path:this.property},cancelable:!0});return this.state.host.dispatchEvent(o),o}updater(t,e=!1){const[o,s,r]=this.resolve(t),n=this.notify(s,r);!e&&n.defaultPrevented||Object.is(o,s)||(this.state.host[this.property]=s)}});function ce(t){let e=t;return{get current(){return e},set current(o){e=o},get value(){return e},set value(o){e=o}}}function Z(t){return Et(()=>ce(t),[])}P(class extends I{update(){return this.state.host}});function le({render:t}){const e=Jt(t),o=se(e);return{component:e,createContext:o}}const D=(t,e)=>{const o=t._$AN;if(o===void 0)return!1;for(const s of o)s._$AO?.(e,!1),D(s,e);return!0},K=t=>{let e,o;do{if((e=t._$AM)===void 0)break;o=e._$AN,o.delete(t),t=e}while(o?.size===0)},Mt=t=>{for(let e;e=t._$AM;t=e){let o=e._$AN;if(o===void 0)e._$AN=o=new Set;else if(o.has(t))break;o.add(t),he(e)}};function de(t){this._$AN!==void 0?(K(this),this._$AM=t,Mt(this)):this._$AM=t}function ue(t,e=!1,o=0){const s=this._$AH,r=this._$AN;if(r!==void 0&&r.size!==0)if(e)if(Array.isArray(s))for(let n=o;n<s.length;n++)D(s[n],!1),K(s[n]);else s!=null&&(D(s,!1),K(s));else D(this,t)}const he=t=>{t.type==xt.CHILD&&(t._$AP??=ue,t._$AQ??=de)};class pe extends kt{constructor(){super(...arguments),this._$AN=void 0}_$AT(e,o,s){super._$AT(e,o,s),Mt(this),this.isConnected=e._$AU}_$AO(e,o=!0){e!==this.isConnected&&(this.isConnected=e,e?this.reconnected?.():this.disconnected?.()),o&&(D(this,e),K(this))}setValue(e){if(Pt(this._$Ct))this._$Ct._$AI(e,this);else{const o=[...this._$Ct._$AH];o[this._$Ci]=e,this._$Ct._$AI(o,this,0)}}disconnected(){}reconnected(){}}const{component:N}=le({render:$t}),j=it(R`
+`;const _e={CHILD:2},Se=e=>(...t)=>({_$litDirective$:e,values:t});class Ae{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,s){this._$Ct=t,this._$AM=o,this._$Ci=s}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}const ve=(e,t,o)=>{const s=new Map;for(let r=t;r<=o;r++)s.set(e[r],r);return s},We=Se(class extends Ae{constructor(e){if(super(e),e.type!==_e.CHILD)throw Error("repeat() can only be used in text expressions")}dt(e,t,o){let s;o===void 0?o=t:t!==void 0&&(s=t);const r=[],n=[];let u=0;for(const g of e)r[u]=s?s(g,u):u,n[u]=o(g,u),u++;return{values:n,keys:r}}render(e,t,o){return this.dt(e,t,o).values}update(e,[t,o,s]){const r=Be(e),{values:n,keys:u}=this.dt(t,o,s);if(!Array.isArray(r))return this.ut=u,n;const g=this.ut??=[],p=[];let $,w,d=0,h=r.length-1,l=0,v=n.length-1;for(;d<=h&&l<=v;)if(r[d]===null)d++;else if(r[h]===null)h--;else if(g[d]===u[l])p[l]=M(r[d],n[l]),d++,l++;else if(g[h]===u[v])p[v]=M(r[h],n[v]),h--,v--;else if(g[d]===u[v])p[v]=M(r[d],n[v]),I(e,p[v+1],r[d]),d++,v--;else if(g[h]===u[l])p[l]=M(r[h],n[l]),I(e,r[d],r[h]),h--,l++;else if($===void 0&&($=ve(u,l,v),w=ve(g,d,h)),$.has(g[d]))if($.has(g[h])){const b=w.get(u[l]),m=b!==void 0?r[b]:null;if(m===null){const f=I(e,r[d]);M(f,n[l]),p[l]=f}else p[l]=M(m,n[l]),I(e,r[d],m),r[b]=null;l++}else se(r[h]),h--;else se(r[d]),d++;for(;l<=v;){const b=I(e,p[v+1]);M(b,n[l]),p[l++]=b}for(;d<=h;){const b=r[d++];b!==null&&se(b)}return this.ut=u,Oe(e,p),De}});let te,Ee=0;function be(e){te=e}function fe(){te=null,Ee=0}function Qe(){return Ee++}const ne=Symbol("haunted.phase"),K=Symbol("haunted.hook"),ze=Symbol("haunted.update"),ye=Symbol("haunted.commit"),T=Symbol("haunted.effects"),B=Symbol("haunted.layoutEffects"),ce="haunted.context";class Ze{update;host;virtual;[K];[T];[B];constructor(t,o){this.update=t,this.host=o,this[K]=new Map,this[T]=[],this[B]=[]}run(t){be(this);let o=t();return fe(),o}_runEffects(t){let o=this[t];be(this);for(let s of o)s.call(this);fe()}runEffects(){this._runEffects(T)}runLayoutEffects(){this._runEffects(B)}teardown(){this[K].forEach(o=>{typeof o.teardown=="function"&&o.teardown(!0)})}}class Ke extends Error{constructor(t){const o=t?` <${t}>`:"";super(`Infinite update loop detected in component${o}. This usually means a hook (useEffect, useMemo, useCallback) has dependencies that create new references on every render, such as [{}], [[]], or [Promise.resolve()]. Make sure your dependency arrays contain stable references.`),this.name="InfiniteLoopError"}}const Xe=100,Je=Promise.resolve().then.bind(Promise.resolve());function Me(){let e=[],t;function o(){t=null;let s=e;e=[];for(var r=0,n=s.length;r<n;r++)s[r]()}return function(s){e.push(s),t==null&&(t=Je(o))}}const et=Me(),$e=Me();class de{renderer;host;state;[ne];_updateQueued;_active;_updateCount;_processing;static maxUpdates=Xe;constructor(t,o){this.renderer=t,this.host=o,this.state=new Ze(this.update.bind(this),o),this[ne]=null,this._updateQueued=!1,this._active=!1,this._updateCount=0,this._processing=!1}_checkForInfiniteLoop(){if(this._processing||(this._updateCount=0),this._updateCount++,this._updateCount>de.maxUpdates){const t=this.host instanceof HTMLElement?this.host.tagName.toLowerCase():void 0;throw this._active=!1,new Ke(t)}}update(){this._active&&(this._updateQueued||(this._checkForInfiniteLoop(),this._processing=!0,et(()=>{let t=this.handlePhase(ze);$e(()=>{this.handlePhase(ye,t),$e(()=>{this.handlePhase(T),this._updateQueued||(this._processing=!1)})}),this._updateQueued=!1}),this._updateQueued=!0))}handlePhase(t,o){switch(this[ne]=t,t){case ye:this.commit(o),this.runEffects(B);return;case ze:return this.render();case T:return this.runEffects(T)}}render(){return this.state.run(()=>this.renderer.call(this.host,this.host))}runEffects(t){this.state._runEffects(t)}teardown(){this.state.teardown(),this._updateCount=0,this._processing=!1}pause(){this._active=!1}resume(){this._active=!0,this._updateCount=0}}const ue=(...e)=>{const t=new CSSStyleSheet;return t.replaceSync(e.join("")),t},tt=e=>e?.map(t=>typeof t=="string"?ue(t):t),ot=(e,...t)=>e.flatMap((o,s)=>[o,t[s]||""]).join(""),R=ot,st=(e="")=>e.replace(/-+([a-z])?/g,(t,o)=>o?o.toUpperCase():"");function rt(e){class t extends de{frag;renderResult;constructor(r,n,u){super(r,u||n),this.frag=n}commit(r){this.renderResult=e(r,this.frag)}}function o(s,r,n){const u=(n||r||{}).baseElement||HTMLElement,{observedAttributes:g=[],useShadowDOM:p=!0,shadowRootInit:$={},styleSheets:w}=n||r||{},d=tt(s.styleSheets||w);class h extends u{_scheduler;static get observedAttributes(){return s.observedAttributes||g||[]}constructor(){if(super(),p===!1)this._scheduler=new t(s,this);else{const m=this.attachShadow({mode:"open",...$});d&&(m.adoptedStyleSheets=d),this._scheduler=new t(s,m,this)}}connectedCallback(){super.connectedCallback?.(),this._scheduler.resume(),this._scheduler.update(),this._scheduler.renderResult?.setConnected(!0)}disconnectedCallback(){super.disconnectedCallback?.(),this._scheduler.pause(),this._scheduler.teardown(),this._scheduler.renderResult?.setConnected(!1)}attributeChangedCallback(m,f,z){if(f===z)return;let x=z===""?!0:z;Reflect.set(this,st(m),x)}}function l(b){let m=b,f=!1;return Object.freeze({enumerable:!0,configurable:!0,get(){return m},set(z){f&&m===z||(f=!0,m=z,this._scheduler&&this._scheduler.update())}})}const v=new Proxy(u.prototype,{getPrototypeOf(b){return b},set(b,m,f,z){let x;return m in b?(x=Object.getOwnPropertyDescriptor(b,m),x&&x.set?(x.set.call(z,f),z._scheduler?.update(),!0):(Reflect.set(b,m,f,z),z._scheduler?.update(),!0)):(typeof m=="symbol"||m[0]==="_"?x={enumerable:!0,configurable:!0,writable:!0,value:f}:x=l(f),Object.defineProperty(z,m,x),x.set&&x.set.call(z,f),!0)}});return Object.setPrototypeOf(h.prototype,v),h}return o}class P{id;state;constructor(t,o){this.id=t,this.state=o}}function nt(e,...t){let o=Qe(),s=te[K],r=s.get(o);return r||(r=new e(o,te,...t),s.set(o,r)),r.update(...t)}function L(e){return nt.bind(null,e)}function Te(e){return L(class extends P{callback;lastValues;values;_teardown;constructor(t,o,s,r){super(t,o),e(o,this)}update(t,o){this.callback=t,this.values=o}call(){const t=!this.values||this.hasChanged();this.lastValues=this.values,t&&this.run()}run(){this.teardown(),this._teardown=this.callback.call(this.state)}teardown(t){typeof this._teardown=="function"&&(this._teardown(),this._teardown=void 0),t&&(this.lastValues=this.values=void 0)}hasChanged(){return!this.lastValues||this.values.some((t,o)=>this.lastValues[o]!==t)}})}function Re(e,t){e[T].push(t)}const A=Te(Re),at=e=>e instanceof Element?e:e.startNode||e.endNode||e.parentNode,it=L(class extends P{Context;value;_ranEffect;_unsubscribe;constructor(e,t,o){super(e,t),this._updater=this._updater.bind(this),this._ranEffect=!1,this._unsubscribe=null,Re(t,this)}update(e){return this.Context!==e&&(this._subscribe(e),this.Context=e),this.value}call(){this._ranEffect||(this._ranEffect=!0,this._unsubscribe&&this._unsubscribe(),this._subscribe(this.Context),this.state.update())}_updater(e){this.value=e,this.state.update()}_subscribe(e){const t={Context:e,callback:this._updater};at(this.state.host).dispatchEvent(new CustomEvent(ce,{detail:t,bubbles:!0,cancelable:!0,composed:!0}));const{unsubscribe:s=null,value:r}=t;this.value=s?r:e.defaultValue,this._unsubscribe=s}teardown(){this._unsubscribe&&this._unsubscribe()}});function ct(e){return t=>{const o={Provider:class extends HTMLElement{listeners;_value;constructor(){super(),this.style.display="contents",this.listeners=new Set,this.addEventListener(ce,this)}disconnectedCallback(){this.removeEventListener(ce,this)}handleEvent(s){const{detail:r}=s;r.Context===o&&(r.value=this.value,r.unsubscribe=this.unsubscribe.bind(this,r.callback),this.listeners.add(r.callback),s.stopPropagation())}unsubscribe(s){this.listeners.delete(s)}set value(s){this._value=s;for(let r of this.listeners)r(s)}get value(){return this._value}},Consumer:e(function({render:s}){const r=it(o);return s(r)},{useShadowDOM:!1}),defaultValue:t};return o}}const Pe=L(class extends P{value;values;constructor(e,t,o,s){super(e,t),this.value=o(),this.values=s}update(e,t){return this.hasChanged(t)&&(this.values=t,this.value=e()),this.value}hasChanged(e=[]){return e.some((t,o)=>this.values[o]!==t)}}),xe=(e,t)=>Pe(()=>e,t);function lt(e,t){e[B].push(t)}const Le=Te(lt),dt=L(class extends P{args;constructor(e,t,o){super(e,t),this.updater=this.updater.bind(this),typeof o=="function"&&(o=o()),this.makeArgs(o)}update(){return this.args}updater(e){const[t]=this.args;typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&(this.makeArgs(e),this.state.update())}makeArgs(e){this.args=Object.freeze([e,this.updater])}});L(class extends P{reducer;currentState;constructor(e,t,o,s,r){super(e,t),this.dispatch=this.dispatch.bind(this),this.currentState=r!==void 0?r(s):s}update(e){return this.reducer=e,[this.currentState,this.dispatch]}dispatch(e){this.currentState=this.reducer(this.currentState,e),this.state.update()}});const ut=/([A-Z])/gu;L(class extends P{property;eventName;constructor(e,t,o,s){if(super(e,t),this.state.virtual)throw new Error("Can't be used with virtual components.");this.updater=this.updater.bind(this),this.property=o,this.eventName=o.replace(ut,"-$1").toLowerCase()+"-changed",this.state.host[this.property]==null&&(typeof s=="function"&&(s=s()),s!=null&&this.updater(s,!0))}update(e,t){return[this.state.host[this.property],this.updater]}resolve(e){const t=this.state.host[this.property],o=typeof e=="function"?e:void 0,s=o?o(t):e;return[t,s,o]}notify(e,t){const o=new CustomEvent(this.eventName,{detail:{value:e,updater:t,path:this.property},cancelable:!0});return this.state.host.dispatchEvent(o),o}updater(e,t=!1){const[o,s,r]=this.resolve(e),n=this.notify(s,r);!t&&n.defaultPrevented||Object.is(o,s)||(this.state.host[this.property]=s)}});function ht(e){let t=e;return{get current(){return t},set current(o){t=o},get value(){return t},set value(o){t=o}}}function X(e){return Pe(()=>ht(e),[])}L(class extends P{update(){return this.state.host}});function pt({render:e}){const t=rt(e),o=ct(t);return{component:t,createContext:o}}const D=(e,t)=>{const o=e._$AN;if(o===void 0)return!1;for(const s of o)s._$AO?.(t,!1),D(s,t);return!0},oe=e=>{let t,o;do{if((t=e._$AM)===void 0)break;o=t._$AN,o.delete(e),e=t}while(o?.size===0)},Ie=e=>{for(let t;t=e._$AM;e=t){let o=t._$AN;if(o===void 0)t._$AN=o=new Set;else if(o.has(e))break;o.add(e),vt(t)}};function gt(e){this._$AN!==void 0?(oe(this),this._$AM=e,Ie(this)):this._$AM=e}function mt(e,t=!1,o=0){const s=this._$AH,r=this._$AN;if(r!==void 0&&r.size!==0)if(t)if(Array.isArray(s))for(let n=o;n<s.length;n++)D(s[n],!1),oe(s[n]);else s!=null&&(D(s,!1),oe(s));else D(this,e)}const vt=e=>{e.type==_e.CHILD&&(e._$AP??=mt,e._$AQ??=gt)};class bt extends Ae{constructor(){super(...arguments),this._$AN=void 0}_$AT(t,o,s){super._$AT(t,o,s),Ie(this),this.isConnected=t._$AU}_$AO(t,o=!0){t!==this.isConnected&&(this.isConnected=t,t?this.reconnected?.():this.disconnected?.()),o&&(D(this,t),oe(this))}setValue(t){if(Fe(this._$Ct))this._$Ct._$AI(t,this);else{const o=[...this._$Ct._$AH];o[this._$Ci]=t,this._$Ct._$AI(o,this,0)}}disconnected(){}reconnected(){}}const{component:F}=pt({render:Ce}),N=ue(R`
 	/*
 	 * Use border-box sizing for all elements.
 	 * This is safe and doesn't conflict with child component styles.
@@ -412,7 +412,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 	[hidden]:where(:not([hidden='until-found'])) {
 		display: none !important;
 	}
-`),a=t=>`calc(var(--cz-spacing) * ${t})`,ge=R`
+`),a=e=>`calc(var(--cz-spacing) * ${e})`,ft=R`
 	/* =========================================
 	 * HOST
 	 * ========================================= */
@@ -678,12 +678,12 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 		width: ${a(3)};
 		height: ${a(3)};
 	}
-`,me=()=>l`<span class="badge" part="badge" role="status">
+`,zt=()=>c`<span class="badge" part="badge" role="status">
 		<span class="dot" part="dot"></span>
 		<slot name="prefix"></slot>
 		<span class="content"><slot></slot></span>
 		<slot name="suffix"></slot>
-	</span>`;customElements.define("cosmoz-badge",N(me,{styleSheets:[j,ge]}));const ot=new WeakMap,st=wt(class extends pe{render(t){return O}update(t,[e]){const o=e!==this.G;return o&&this.rt(void 0),(o||this.lt!==this.ct)&&(this.G=e,this.ht=t.options?.host,this.rt(this.ct=t.element)),O}rt(t){if(this.G!==void 0)if(this.isConnected||(t=void 0),typeof this.G=="function"){const e=this.ht??globalThis;let o=ot.get(e);o===void 0&&(o=new WeakMap,ot.set(e,o)),o.get(this.G)!==void 0&&this.G.call(this.ht,void 0),o.set(this.G,t),t!==void 0&&this.G.call(this.ht,t)}else this.G.value=t}get lt(){return typeof this.G=="function"?ot.get(this.ht??globalThis)?.get(this.G):this.G?.value}disconnected(){this.lt===this.ct&&this.rt(void 0)}reconnected(){this.rt(this.ct)}}),ve=R`
+	</span>`;customElements.define("cosmoz-badge",F(zt,{styleSheets:[N,ft]}));const ae=new WeakMap,ie=Se(class extends bt{render(e){return O}update(e,[t]){const o=t!==this.G;return o&&this.rt(void 0),(o||this.lt!==this.ct)&&(this.G=t,this.ht=e.options?.host,this.rt(this.ct=e.element)),O}rt(e){if(this.G!==void 0)if(this.isConnected||(e=void 0),typeof this.G=="function"){const t=this.ht??globalThis;let o=ae.get(t);o===void 0&&(o=new WeakMap,ae.set(t,o)),o.get(this.G)!==void 0&&this.G.call(this.ht,void 0),o.set(this.G,e),e!==void 0&&this.G.call(this.ht,e)}else this.G.value=e}get lt(){return typeof this.G=="function"?ae.get(this.ht??globalThis)?.get(this.G):this.G?.value}disconnected(){this.lt===this.ct&&this.rt(void 0)}reconnected(){this.rt(this.ct)}}),yt=R`
 	:host {
 		display: flex;
 		flex-direction: column;
@@ -698,11 +698,11 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 	::slotted([slot='description']) {
 		margin: 0;
 	}
-`;customElements.define("cosmoz-tooltip-content",N(()=>l`
+`;customElements.define("cosmoz-tooltip-content",F(()=>c`
 			<slot name="heading"></slot>
 			<slot name="description"></slot>
 			<slot></slot>
-		`,{styleSheets:[j,ve]}));const nt=it(R`
+		`,{styleSheets:[N,yt]}));const le=ue(R`
 	.cosmoz-tooltip-popover {
 		position: fixed;
 		inset: unset;
@@ -764,10 +764,10 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 			transition: none;
 		}
 	}
-`),zt=(t,e,o)=>$t(l`<cosmoz-tooltip-content>
-			${y(e,()=>l`<strong slot="heading">${e}</strong>`)}
-			${y(o,()=>l`<p slot="description">${o}</p>`)}
-		</cosmoz-tooltip-content>`,t),fe=(t,e)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:p=!1}=e,g=Z(),w=!!(s||r)&&!p;S(()=>{if(!o||!w)return;const d=t.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(nt)||(d.adoptedStyleSheets=[...h,nt]);const c=document.createElement("div");c.setAttribute("popover","manual"),c.setAttribute("role","tooltip"),c.classList.add("cosmoz-tooltip-popover"),t.after(c),g.current=c,zt(c,s,r);const v=`[name="${o}"]`,f=`--tooltip-anchor-${o}`;let m;const b=k=>{p||(clearTimeout(m),k.style.anchorName=f,c.style.positionAnchor=f,c.style.positionArea=n,m=window.setTimeout(()=>c.showPopover(),u))},z=()=>{clearTimeout(m),c.hidePopover()},x=k=>{const _=k.target.closest?.(v);_&&b(_)},ct=k=>{const _=k.target.closest?.(v);if(!_)return;const ut=k.relatedTarget;ut&&_.contains(ut)||z()},lt=k=>{const _=k.target.closest?.(v);_&&b(_)},dt=k=>{k.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",ct),d.addEventListener("focusin",lt),d.addEventListener("focusout",dt),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",ct),d.removeEventListener("focusin",lt),d.removeEventListener("focusout",dt),c.hidePopover(),c.remove(),g.current=void 0}},[o,n,u,w]),S(()=>{!o||!g.current||zt(g.current,s,r)},[s,r,o]),S(()=>{!p||!g.current||g.current.hidePopover()},[p])},be=t=>{const[e,o]=ae(!1);return S(()=>{const s=t.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[t.current]),e},ze=R`
+`),we=(e,t,o)=>Ce(c`<cosmoz-tooltip-content>
+			${y(t,()=>c`<strong slot="heading">${t}</strong>`)}
+			${y(o,()=>c`<p slot="description">${o}</p>`)}
+		</cosmoz-tooltip-content>`,e),$t=(e,t)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:g=!1}=t,p=X(),w=!!(s||r)&&!g;A(()=>{if(!o||!w)return;const d=e.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(le)||(d.adoptedStyleSheets=[...h,le]);const l=document.createElement("div");l.setAttribute("popover","manual"),l.setAttribute("role","tooltip"),l.classList.add("cosmoz-tooltip-popover"),e.after(l),p.current=l,we(l,s,r);const v=`[name="${o}"]`,b=`--tooltip-anchor-${o}`;let m;const f=k=>{g||(clearTimeout(m),k.style.anchorName=b,l.style.positionAnchor=b,l.style.positionArea=n,m=window.setTimeout(()=>l.showPopover(),u))},z=()=>{clearTimeout(m),l.hidePopover()},x=k=>{const _=k.target.closest?.(v);_&&f(_)},he=k=>{const _=k.target.closest?.(v);if(!_)return;const me=k.relatedTarget;me&&_.contains(me)||z()},pe=k=>{const _=k.target.closest?.(v);_&&f(_)},ge=k=>{k.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",he),d.addEventListener("focusin",pe),d.addEventListener("focusout",ge),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",he),d.removeEventListener("focusin",pe),d.removeEventListener("focusout",ge),l.hidePopover(),l.remove(),p.current=void 0}},[o,n,u,w]),A(()=>{!o||!p.current||we(p.current,s,r)},[s,r,o]),A(()=>{!g||!p.current||p.current.hidePopover()},[g])},xt=e=>{const[t,o]=dt(!1);return A(()=>{const s=e.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[e.current]),t},wt=R`
 	:host {
 		display: inline-block;
 		anchor-name: --tooltip-anchor;
@@ -781,25 +781,25 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 	.cosmoz-tooltip-popover {
 		position-anchor: --tooltip-anchor;
 	}
-`,ye=t=>{const{heading:e,description:o,for:s,placement:r="top",delay:n=300,disabled:u=!1}=t,p=Z(),g=Z(),$=Z(),w=be($),h=!!(e||o||w)&&!u,c=bt(()=>{h&&(clearTimeout(g.current),g.current=window.setTimeout(()=>{p.current?.showPopover()},n))},[n,h]);S(()=>{u&&(clearTimeout(g.current),p.current?.hidePopover())},[u]);const v=bt(()=>{clearTimeout(g.current),p.current?.hidePopover()},[]);return S(()=>{if(s)return;const f=m=>{const b=m.relatedTarget;b&&t.contains(b)||v()};return t.addEventListener("pointerover",c),t.addEventListener("pointerout",f),()=>{t.removeEventListener("pointerover",c),t.removeEventListener("pointerout",f)}},[s,c,v]),fe(t,{for:s,heading:e,description:o,placement:r,delay:n,disabled:u}),s?O:h?l`
-		<slot @focusin=${c} @focusout=${v}></slot>
+`,kt=e=>{const{heading:t,description:o,for:s,placement:r="top",delay:n=300,disabled:u=!1}=e,g=X(),p=X(),$=X(),w=xt($),h=!!(t||o||w)&&!u,l=xe(()=>{h&&(clearTimeout(p.current),p.current=window.setTimeout(()=>{g.current?.showPopover()},n))},[n,h]);A(()=>{u&&(clearTimeout(p.current),g.current?.hidePopover())},[u]);const v=xe(()=>{clearTimeout(p.current),g.current?.hidePopover()},[]);return A(()=>{if(s)return;const b=m=>{const f=m.relatedTarget;f&&e.contains(f)||v()};return e.addEventListener("pointerover",l),e.addEventListener("pointerout",b),()=>{e.removeEventListener("pointerover",l),e.removeEventListener("pointerout",b)}},[s,l,v]),$t(e,{for:s,heading:t,description:o,placement:r,delay:n,disabled:u}),s?O:h?c`
+		<slot @focusin=${l} @focusout=${v}></slot>
 		<div
 			class="cosmoz-tooltip-popover"
 			popover="manual"
 			role="tooltip"
 			style="position-area: ${r}"
-			${st(p)}
+			${ie(g)}
 		>
 			<cosmoz-tooltip-content>
-				${y(e,()=>l`<strong slot="heading">${e}</strong>`)}
-				${y(o,()=>l`<p slot="description">${o}</p>`)}
-				<slot name="content" ${st($)}></slot>
+				${y(t,()=>c`<strong slot="heading">${t}</strong>`)}
+				${y(o,()=>c`<p slot="description">${o}</p>`)}
+				<slot name="content" ${ie($)}></slot>
 			</cosmoz-tooltip-content>
 		</div>
-	`:l`
+	`:c`
 			<slot></slot>
-			<slot name="content" ${st($)} hidden></slot>
-		`};customElements.define("cosmoz-tooltip",N(ye,{styleSheets:[j,nt,ze],observedAttributes:["heading","description","for","placement","delay","disabled"]}));const yt=(t,e)=>{t.type="submit",t.hidden=!0,t.disabled=!!(e.disabled||e.formDisabled),t.name=e.name??"",t.value=e.value??"";for(const o of["form","formaction","formenctype","formmethod","formnovalidate","formtarget"])e.hasAttribute(o)?t.setAttribute(o,e.getAttribute(o)):t.removeAttribute(o)};class $e extends HTMLElement{static formAssociated=!0;#o=this.attachInternals();#t;get form(){return this.#o.form}syncFormButton(){if(!this.isConnected||this.type!=="submit"||this.href!=null){this.#t?.remove(),this.#t=void 0;return}this.#t?yt(this.#t,this):(this.#t=document.createElement("button"),yt(this.#t,this),this.append(this.#t))}formAssociatedCallback(){this.syncFormButton()}formDisabledCallback(e){this.formDisabled=e,this.syncFormButton()}connectedCallback(){this.addEventListener("click",this.#e),this.syncFormButton()}disconnectedCallback(){this.removeEventListener("click",this.#e),this.#t?.remove(),this.#t=void 0}#e=e=>{this.#t&&e.composedPath().includes(this.#t)||setTimeout(()=>{if(e.defaultPrevented||!this.isConnected||this.disabled||this.formDisabled||this.href!=null)return;const o=this.form;o&&(this.type==="reset"?o.reset():this.type==="submit"&&(this.syncFormButton(),this.#t&&o.requestSubmit(this.#t)))},0)}}const xe=R`
+			<slot name="content" ${ie($)} hidden></slot>
+		`};customElements.define("cosmoz-tooltip",F(kt,{styleSheets:[N,le,wt],observedAttributes:["heading","description","for","placement","delay","disabled"]}));const ke=(e,t)=>{e.type="submit",e.hidden=!0,e.disabled=!!(t.disabled||t.formDisabled),e.name=t.name??"",e.value=t.value??"";for(const o of["form","formaction","formenctype","formmethod","formnovalidate","formtarget"])t.hasAttribute(o)?e.setAttribute(o,t.getAttribute(o)):e.removeAttribute(o)};class Ct extends HTMLElement{static formAssociated=!0;#o=this.attachInternals();#e;get form(){return this.#o.form}syncFormButton(){if(!this.isConnected||this.type!=="submit"||this.href!=null){this.#e?.remove(),this.#e=void 0;return}this.#e?ke(this.#e,this):(this.#e=document.createElement("button"),ke(this.#e,this),this.append(this.#e))}formAssociatedCallback(){this.syncFormButton()}formDisabledCallback(t){this.formDisabled=t,this.syncFormButton()}connectedCallback(){this.addEventListener("click",this.#t),this.syncFormButton()}disconnectedCallback(){this.removeEventListener("click",this.#t),this.#e?.remove(),this.#e=void 0}#t=t=>{this.#e&&t.composedPath().includes(this.#e)||setTimeout(()=>{if(t.defaultPrevented||!this.isConnected||this.disabled||this.formDisabled||this.href!=null)return;const o=this.form;o&&(this.type==="reset"?o.reset():this.type==="submit"&&(this.syncFormButton(),this.#e&&o.requestSubmit(this.#e)))},0)}}const _t=R`
 	:host {
 		display: inline-flex;
 
@@ -1135,56 +1135,56 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 			transition: none;
 		}
 	}
-`,we=["variant","size","disabled","full-width","icon-only","tooltip","tooltip-placement","type","value","href","target","rel","download","aria-expanded","aria-label","title","aria-pressed","aria-controls","aria-haspopup","aria-description","aria-busy","aria-current","control-role","tabindex","name","form","formaction","formenctype","formmethod","formnovalidate","formtarget"],ke=t=>{const{disabled:e=!1,tooltip:o,tooltipPlacement:s,type:r="button",href:n,target:u,rel:p,download:g}=t,$=!!(e||t.formDisabled);S(()=>{t.syncFormButton()}),S(()=>{const h=c=>{(t.disabled||t.formDisabled)&&(c.preventDefault(),c.stopImmediatePropagation())};return t.addEventListener("click",h,{capture:!0}),()=>t.removeEventListener("click",h,{capture:!0})},[t.disabled,t.formDisabled]),ne(()=>{const h=t.shadowRoot?.querySelector(".button");h&&"ariaControlsElements"in h&&(h.ariaControlsElements=t.ariaControlsElements)});const w=l`
+`,St=["variant","size","disabled","full-width","icon-only","tooltip","tooltip-placement","type","value","href","target","rel","download","aria-expanded","aria-label","title","aria-pressed","aria-controls","aria-haspopup","aria-description","aria-busy","aria-current","control-role","tabindex","name","form","formaction","formenctype","formmethod","formnovalidate","formtarget"],At=e=>{const{disabled:t=!1,tooltip:o,tooltipPlacement:s,type:r="button",href:n,target:u,rel:g,download:p}=e,$=!!(t||e.formDisabled);A(()=>{e.syncFormButton()}),A(()=>{const h=l=>{(e.disabled||e.formDisabled)&&(l.preventDefault(),l.stopImmediatePropagation())};return e.addEventListener("click",h,{capture:!0}),()=>e.removeEventListener("click",h,{capture:!0})},[e.disabled,e.formDisabled]),Le(()=>{const h=e.shadowRoot?.querySelector(".button");h&&"ariaControlsElements"in h&&(h.ariaControlsElements=e.ariaControlsElements)});const w=c`
 		<slot name="prefix"></slot>
 		<slot></slot>
 		<slot name="suffix"></slot>
-	`,d=y(n!=null,()=>l`
+	`,d=y(n!=null,()=>c`
 			<a
-				role=${i(t.controlRole)}
-				tabindex=${i(t.getAttribute("tabindex")??void 0)}
-				aria-controls=${i(t.getAttribute("aria-controls")??void 0)}
-				aria-haspopup=${i(t.getAttribute("aria-haspopup")??void 0)}
-				aria-description=${i(t.getAttribute("aria-description")??void 0)}
-				aria-busy=${i(t.getAttribute("aria-busy")??void 0)}
-				aria-current=${i(t.getAttribute("aria-current")??void 0)}
+				role=${i(e.controlRole)}
+				tabindex=${i(e.getAttribute("tabindex")??void 0)}
+				aria-controls=${i(e.getAttribute("aria-controls")??void 0)}
+				aria-haspopup=${i(e.getAttribute("aria-haspopup")??void 0)}
+				aria-description=${i(e.getAttribute("aria-description")??void 0)}
+				aria-busy=${i(e.getAttribute("aria-busy")??void 0)}
+				aria-current=${i(e.getAttribute("aria-current")??void 0)}
 				href=${n}
 				class="button"
 				part="button"
 				aria-disabled=${$?"true":O}
-				aria-expanded=${i(t.getAttribute("aria-expanded")??void 0)}
-				aria-label=${i(t.getAttribute("aria-label")??(t.iconOnly&&t.title?t.title:void 0))}
+				aria-expanded=${i(e.getAttribute("aria-expanded")??void 0)}
+				aria-label=${i(e.getAttribute("aria-label")??(e.iconOnly&&e.title?e.title:void 0))}
 				target=${i(u)}
-				rel=${i(p)}
-				download=${i(g)}
+				rel=${i(g)}
+				download=${i(p)}
 				>${w}</a
 			>
-		`,()=>l`
+		`,()=>c`
 			<button
-				role=${i(t.controlRole)}
-				tabindex=${i(t.getAttribute("tabindex")??void 0)}
-				aria-controls=${i(t.getAttribute("aria-controls")??void 0)}
-				aria-haspopup=${i(t.getAttribute("aria-haspopup")??void 0)}
-				aria-description=${i(t.getAttribute("aria-description")??void 0)}
-				aria-busy=${i(t.getAttribute("aria-busy")??void 0)}
-				aria-current=${i(t.getAttribute("aria-current")??void 0)}
+				role=${i(e.controlRole)}
+				tabindex=${i(e.getAttribute("tabindex")??void 0)}
+				aria-controls=${i(e.getAttribute("aria-controls")??void 0)}
+				aria-haspopup=${i(e.getAttribute("aria-haspopup")??void 0)}
+				aria-description=${i(e.getAttribute("aria-description")??void 0)}
+				aria-busy=${i(e.getAttribute("aria-busy")??void 0)}
+				aria-current=${i(e.getAttribute("aria-current")??void 0)}
 				type=${r}
 				class="button"
 				part="button"
 				?disabled=${$}
-				aria-expanded=${i(t.getAttribute("aria-expanded")??void 0)}
-				aria-label=${i(t.getAttribute("aria-label")??(t.iconOnly&&t.title?t.title:void 0))}
-				aria-pressed=${i(t.getAttribute("aria-pressed")??void 0)}
+				aria-expanded=${i(e.getAttribute("aria-expanded")??void 0)}
+				aria-label=${i(e.getAttribute("aria-label")??(e.iconOnly&&e.title?e.title:void 0))}
+				aria-pressed=${i(e.getAttribute("aria-pressed")??void 0)}
 			>
 				${w}
 			</button>
-		`);return l`<cosmoz-tooltip
+		`);return c`<cosmoz-tooltip
 		heading=${i(o??void 0)}
 		placement=${i(s??void 0)}
 		?disabled=${$}
 	>
 		${d}
-	</cosmoz-tooltip>`};customElements.define("cosmoz-button",N(ke,{baseElement:$e,observedAttributes:we,styleSheets:[j,xe],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const A=t=>`calc(var(--cz-spacing) * ${t})`,Ce=R`
+	</cosmoz-tooltip>`};customElements.define("cosmoz-button",F(At,{baseElement:Ct,observedAttributes:St,styleSheets:[N,_t],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const S=e=>`calc(var(--cz-spacing) * ${e})`,Et=R`
 	/* =========================================
 	 * HOST
 	 * ========================================= */
@@ -1236,28 +1236,28 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 	}
 
 	.close svg {
-		width: ${A(2.5)};
-		height: ${A(2.5)};
+		width: ${S(2.5)};
+		height: ${S(2.5)};
 	}
 
 	:host([size='md']) .close svg,
 	:host(:not([size])) .close svg {
-		width: ${A(3)};
-		height: ${A(3)};
+		width: ${S(3)};
+		height: ${S(3)};
 	}
 
 	:host([size='lg']) .close svg {
-		width: ${A(3.5)};
-		height: ${A(3.5)};
+		width: ${S(3.5)};
+		height: ${S(3.5)};
 	}
 
 	/* =========================================
 	 * SLOTTED CONTENT (icons, images, flags)
 	 * ========================================= */
 	::slotted(svg) {
-		width: ${A(3.5)};
-		height: ${A(3.5)};
-		color: var(--cz-color-fg-quaternary);
+		width: ${S(3.5)};
+		height: ${S(3.5)};
+		color: var(--cosmoz-tag-color, var(--cz-color-fg-quaternary));
 	}
 
 	:host([color='brand']) ::slotted(svg) {
@@ -1272,51 +1272,61 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
 	:host([color='success']) ::slotted(svg) {
 		color: var(--cz-color-fg-success-secondary);
 	}
-`,_e=t=>{const{color:e,size:o,disabled:s,removable:r,removeLabel:n="Remove"}=t,u=()=>{s||t.dispatchEvent(new CustomEvent("remove"))};return l`<cosmoz-badge
-		color=${i(e)}
-		size=${i(o)}
-		?disabled=${s}
-		type="color"
+`,Mt=["gray","brand","error","warning","success","processing"],Tt=e=>{const{color:t,type:o="color",size:s,disabled:r,removable:n,removeLabel:u="Remove"}=e;Le(()=>{const p=!!t&&!Mt.includes(t)&&CSS.supports("color",t);e.style.setProperty("--cosmoz-tag-color",p?t:"")},[t]);const g=()=>{r||e.dispatchEvent(new CustomEvent("remove"))};return c`<cosmoz-badge
+		color=${i(t)}
+		size=${i(s)}
+		?disabled=${r}
+		type=${o}
 	>
 		<slot name="prefix" slot="prefix"></slot>
 		<slot></slot>
 		<slot name="suffix" slot="suffix"></slot>
-		${y(r,()=>l` <cosmoz-button
+		${y(n,()=>c` <cosmoz-button
 					variant="tertiary"
 					icon-only
 					slot="suffix"
 					class="close"
-					aria-label=${n}
+					aria-label=${u}
 					@mousedown=${p=>p.preventDefault()}
-					@click=${u}
+					@click=${g}
 				>
-					${Ht()}
+					${Ve()}
 				</cosmoz-button>`)}
-	</cosmoz-badge>`};customElements.define("cosmoz-tag",N(_e,{observedAttributes:["color","size","disabled","removable"],styleSheets:[j,Ce]}));const E=["gray","brand","error","warning","success"],Ae=[{id:1,label:"Design",color:"brand"},{id:2,label:"Bug",color:"error"},{id:3,label:"Feature",color:"success"},{id:4,label:"Review",color:"warning"},{id:5,label:"Docs",color:"gray"},{id:6,label:"Refactor",color:"brand"},{id:7,label:"Performance",color:"success"},{id:8,label:"Urgent",color:"error"}],Te={title:"Cosmoz Tag",component:"cosmoz-tag",tags:["autodocs"],argTypes:{color:{control:"select",options:[...E],description:"Tag color scheme",table:{defaultValue:{summary:"gray"}}},size:{control:"select",options:["sm","md","lg"],description:"Tag size",table:{defaultValue:{summary:"md"}}},disabled:{control:"boolean",description:"Disabled state",table:{defaultValue:{summary:"false"}}},removable:{control:"boolean",description:"Show remove (X) button",table:{defaultValue:{summary:"false"}}},label:{control:"text",description:"Tag label text"},remove:{description:"Event dispatched when the remove button is clicked.",table:{category:"events"},control:!1}}},Se=t=>l`
+	</cosmoz-badge>`};customElements.define("cosmoz-tag",F(Tt,{observedAttributes:["color","type","size","disabled","removable"],styleSheets:[N,Et]}));const{expect:J,waitFor:ee}=__STORYBOOK_MODULE_TEST__,E=["gray","brand","error","warning","success"],Rt=[{id:1,label:"Design",color:"brand"},{id:2,label:"Bug",color:"error"},{id:3,label:"Feature",color:"success"},{id:4,label:"Review",color:"warning"},{id:5,label:"Docs",color:"gray"},{id:6,label:"Refactor",color:"brand"},{id:7,label:"Performance",color:"success"},{id:8,label:"Urgent",color:"error"}],Bt={title:"Cosmoz Tag",component:"cosmoz-tag",tags:["autodocs"],argTypes:{color:{control:"select",options:[...E],description:"Tag color scheme",table:{defaultValue:{summary:"gray"}}},type:{control:"select",options:["color","pill"],description:"Tag shape",table:{defaultValue:{summary:"color"}}},size:{control:"select",options:["sm","md","lg"],description:"Tag size",table:{defaultValue:{summary:"md"}}},disabled:{control:"boolean",description:"Disabled state",table:{defaultValue:{summary:"false"}}},removable:{control:"boolean",description:"Show remove (X) button",table:{defaultValue:{summary:"false"}}},label:{control:"text",description:"Tag label text"},remove:{description:"Event dispatched when the remove button is clicked.",table:{category:"events"},control:!1}}},Pt=e=>c`
     <cosmoz-tag
-        color=${t.color||"gray"}
-        size=${t.size||"md"}
-        ?disabled=${t.disabled}
-        ?removable=${t.removable}
+        color=${e.color||"gray"}
+        size=${e.size||"md"}
+        ?disabled=${e.disabled}
+        ?removable=${e.removable}
     >
-        ${t.label||"Label"}
+        ${e.label||"Label"}
     </cosmoz-tag>
-`,H={args:{color:"gray",size:"md",label:"Label",disabled:!1},render:Se},U={render:()=>l`
+`,H={args:{color:"gray",size:"md",label:"Label",disabled:!1},render:Pt},U={render:()=>c`
         <div class="story-row">
             <cosmoz-tag size="sm">Small</cosmoz-tag>
             <cosmoz-tag size="md">Medium</cosmoz-tag>
             <cosmoz-tag size="lg">Large</cosmoz-tag>
         </div>
-    `,parameters:{docs:{description:{story:"Tag sizes: sm, md, and lg."}}}},Y={render:()=>l`
+    `,parameters:{docs:{description:{story:"Tag sizes: sm, md, and lg."}}}},q={render:()=>c`
         <div class="story-row">
-            ${E.map(t=>l`<cosmoz-tag color=${t}>${t}</cosmoz-tag>`)}
+            ${E.map(e=>c`<cosmoz-tag color=${e}>${e}</cosmoz-tag>`)}
         </div>
-    `,parameters:{docs:{description:{story:"All available color variants for the tag."}}}},G={args:{size:"lg"},render:()=>l`
+    `,parameters:{docs:{description:{story:"All available color variants for the tag."}}}},Y={render:()=>c`
+        <div class="story-row">
+            ${["#7c3aed","#db2777","#0891b2","#65a30d"].map(e=>c`<cosmoz-tag type="pill" size="sm" removable color=${e}
+                        >${e}</cosmoz-tag
+                    >`)}
+        </div>
+    `,parameters:{docs:{description:{story:"Pill-shaped tags tinted from any CSS color, e.g. user-defined labels."}}},play:async({canvasElement:e})=>{const t=e.querySelector("cosmoz-tag"),o=()=>t.shadowRoot.querySelector("cosmoz-badge"),s=()=>parseFloat(getComputedStyle(o().shadowRoot.querySelector(".badge")).borderTopLeftRadius);await ee(()=>J(o().getAttribute("type")).toBe("pill"));const r=s();t.setAttribute("type","color"),await ee(()=>J(o().getAttribute("type")).toBe("color")),await ee(()=>J(s()).toBeLessThan(r))}},G={tags:["!autodocs"],render:()=>c`<cosmoz-tag color="#ff0000"
+            ><svg slot="prefix" viewBox="0 0 10 10">
+                <circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg
+            >Red</cosmoz-tag
+        >`,play:async({canvasElement:e})=>{const t=e.querySelector("svg");await ee(()=>J(getComputedStyle(t).color).toBe("rgb(255, 0, 0)"))}},V={args:{size:"lg"},render:()=>c`
         <div class="story-stack">
             <div>
                 <h1 class="story-section-title">Colors</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`<cosmoz-tag removable color=${t}>${t}</cosmoz-tag>`)}
+                    ${E.map(e=>c`<cosmoz-tag removable color=${e}>${e}</cosmoz-tag>`)}
                 </div>
             </div>
             <div>
@@ -1328,29 +1338,29 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
                 </div>
             </div>
         </div>
-    `,parameters:{docs:{description:{story:"Removable tags with the removable attribute, shown across colors and sizes."}}}},V={render:()=>l`
+    `,parameters:{docs:{description:{story:"Removable tags with the removable attribute, shown across colors and sizes."}}}},W={render:()=>c`
         <div class="story-stack">
             <div>
                 <h1 class="story-section-title">Basic</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`<cosmoz-tag disabled color=${t}>${t}</cosmoz-tag>`)}
+                    ${E.map(e=>c`<cosmoz-tag disabled color=${e}>${e}</cosmoz-tag>`)}
                 </div>
             </div>
             <div>
                 <h1 class="story-section-title">Removable</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`<cosmoz-tag disabled removable color=${t}>${t}</cosmoz-tag>`)}
+                    ${E.map(e=>c`<cosmoz-tag disabled removable color=${e}>${e}</cosmoz-tag>`)}
                 </div>
             </div>
         </div>
-    `,parameters:{docs:{description:{story:"Disabled tags ignore close interactions."}}}},W={render:()=>l`
+    `,parameters:{docs:{description:{story:"Disabled tags ignore close interactions."}}}},Q={render:()=>c`
         <div class="story-stack">
             <div>
                 <h1 class="story-section-title">Prefix</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`
-                            <cosmoz-tag color=${t}>
-                                ${Ft({slot:"prefix"})} ${t}
+                    ${E.map(e=>c`
+                            <cosmoz-tag color=${e}>
+                                ${Ge({slot:"prefix"})} ${e}
                             </cosmoz-tag>
                         `)}
                 </div>
@@ -1358,9 +1368,9 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
             <div>
                 <h1 class="story-section-title">Suffix</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`
-                            <cosmoz-tag color=${t}>
-                                ${t} ${F({slot:"suffix"})}
+                    ${E.map(e=>c`
+                            <cosmoz-tag color=${e}>
+                                ${e} ${j({slot:"suffix"})}
                             </cosmoz-tag>
                         `)}
                 </div>
@@ -1368,10 +1378,10 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
             <div>
                 <h1 class="story-section-title">Prefix + Suffix</h1>
                 <div class="story-row">
-                    ${E.map(t=>l`
-                            <cosmoz-tag color=${t}>
-                                ${tt({slot:"prefix"})} ${t}
-                                ${F({slot:"suffix"})}
+                    ${E.map(e=>c`
+                            <cosmoz-tag color=${e}>
+                                ${re({slot:"prefix"})} ${e}
+                                ${j({slot:"suffix"})}
                             </cosmoz-tag>
                         `)}
                 </div>
@@ -1380,13 +1390,13 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
                 <h1 class="story-section-title">Prefix + Close</h1>
                 <div class="story-row">
                     <cosmoz-tag removable color="success">
-                        ${Lt({slot:"prefix"})} Success
+                        ${Ne({slot:"prefix"})} Success
                     </cosmoz-tag>
                     <cosmoz-tag removable color="warning">
-                        ${Dt({slot:"prefix"})} Warning
+                        ${He({slot:"prefix"})} Warning
                     </cosmoz-tag>
                     <cosmoz-tag removable color="error">
-                        ${Bt({slot:"prefix"})} Error
+                        ${je({slot:"prefix"})} Error
                     </cosmoz-tag>
                 </div>
             </div>
@@ -1394,13 +1404,13 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
                 <h1 class="story-section-title">Suffix + Close</h1>
                 <div class="story-row">
                     <cosmoz-tag removable color="success">
-                        ${Nt({slot:"suffix"})} Success
+                        ${qe({slot:"suffix"})} Success
                     </cosmoz-tag>
                     <cosmoz-tag removable color="warning">
-                        ${Ot({slot:"suffix"})} Warning
+                        ${Ue({slot:"suffix"})} Warning
                     </cosmoz-tag>
                     <cosmoz-tag removable color="error">
-                        ${jt({slot:"suffix"})} Error
+                        ${Ye({slot:"suffix"})} Error
                     </cosmoz-tag>
                 </div>
             </div>
@@ -1408,21 +1418,21 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
                 <h1 class="story-section-title">Prefix + Suffix + Close</h1>
                 <div class="story-row">
                     <cosmoz-tag removable color="brand">
-                        ${tt({slot:"prefix"})} Brand
-                        ${F({slot:"suffix"})}
+                        ${re({slot:"prefix"})} Brand
+                        ${j({slot:"suffix"})}
                     </cosmoz-tag>
                     <cosmoz-tag removable color="success">
-                        ${tt({slot:"prefix"})} Success
-                        ${F({slot:"suffix"})}
+                        ${re({slot:"prefix"})} Success
+                        ${j({slot:"suffix"})}
                     </cosmoz-tag>
                 </div>
             </div>
         </div>
-    `,parameters:{docs:{description:{story:"Tags with prefix icons, suffix icons, and combinations with remove button."}}}},q={render:()=>{const t=e=>{e.target.remove()};return l`
+    `,parameters:{docs:{description:{story:"Tags with prefix icons, suffix icons, and combinations with remove button."}}}},Z={render:()=>{const e=t=>{t.target.remove()};return c`
             <div class="story-row">
-                ${Ut(Ae,e=>e.id,e=>l`
-                        <cosmoz-tag removable color=${e.color} @remove=${t}>
-                            ${e.label}
+                ${We(Rt,t=>t.id,t=>c`
+                        <cosmoz-tag removable color=${t.color} @remove=${e}>
+                            ${t.label}
                         </cosmoz-tag>
                     `)}
             </div>
@@ -1449,7 +1459,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
-}`,...U.parameters?.docs?.source}}};Y.parameters={...Y.parameters,docs:{...Y.parameters?.docs,source:{originalSource:`{
+}`,...U.parameters?.docs?.source}}};q.parameters={...q.parameters,docs:{...q.parameters?.docs,source:{originalSource:`{
   render: () => html\`
         <div class="story-row">
             \${colors.map(c => html\`<cosmoz-tag color=\${c}>\${c}</cosmoz-tag>\`)}
@@ -1462,7 +1472,47 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
+}`,...q.parameters?.docs?.source}}};Y.parameters={...Y.parameters,docs:{...Y.parameters?.docs,source:{originalSource:`{
+  render: () => html\`
+        <div class="story-row">
+            \${['#7c3aed', '#db2777', '#0891b2', '#65a30d'].map(c => html\`<cosmoz-tag type="pill" size="sm" removable color=\${c}
+                        >\${c}</cosmoz-tag
+                    >\`)}
+        </div>
+    \`,
+  parameters: {
+    docs: {
+      description: {
+        story: 'Pill-shaped tags tinted from any CSS color, e.g. user-defined labels.'
+      }
+    }
+  },
+  play: async ({
+    canvasElement
+  }) => {
+    const tag = canvasElement.querySelector('cosmoz-tag')!;
+    const badge = () => tag.shadowRoot!.querySelector('cosmoz-badge')!;
+    const radius = () => parseFloat(getComputedStyle(badge().shadowRoot!.querySelector('.badge')!).borderTopLeftRadius);
+    await waitFor(() => expect(badge().getAttribute('type')).toBe('pill'));
+    const pill = radius();
+    tag.setAttribute('type', 'color');
+    await waitFor(() => expect(badge().getAttribute('type')).toBe('color'));
+    await waitFor(() => expect(radius()).toBeLessThan(pill));
+  }
 }`,...Y.parameters?.docs?.source}}};G.parameters={...G.parameters,docs:{...G.parameters?.docs,source:{originalSource:`{
+  tags: ['!autodocs'],
+  render: () => html\`<cosmoz-tag color="#ff0000"
+            ><svg slot="prefix" viewBox="0 0 10 10">
+                <circle cx="5" cy="5" r="5" fill="currentColor"></circle></svg
+            >Red</cosmoz-tag
+        >\`,
+  play: async ({
+    canvasElement
+  }) => {
+    const svg = canvasElement.querySelector('svg')!;
+    await waitFor(() => expect(getComputedStyle(svg).color).toBe('rgb(255, 0, 0)'));
+  }
+}`,...G.parameters?.docs?.source}}};V.parameters={...V.parameters,docs:{...V.parameters?.docs,source:{originalSource:`{
   args: {
     size: 'lg'
   },
@@ -1491,7 +1541,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
-}`,...G.parameters?.docs?.source}}};V.parameters={...V.parameters,docs:{...V.parameters?.docs,source:{originalSource:`{
+}`,...V.parameters?.docs?.source}}};W.parameters={...W.parameters,docs:{...W.parameters?.docs,source:{originalSource:`{
   render: () => html\`
         <div class="story-stack">
             <div>
@@ -1515,7 +1565,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
-}`,...V.parameters?.docs?.source}}};W.parameters={...W.parameters,docs:{...W.parameters?.docs,source:{originalSource:`{
+}`,...W.parameters?.docs?.source}}};Q.parameters={...Q.parameters,docs:{...Q.parameters?.docs,source:{originalSource:`{
   render: () => html\`
         <div class="story-stack">
             <div>
@@ -1627,7 +1677,7 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
-}`,...W.parameters?.docs?.source}}};q.parameters={...q.parameters,docs:{...q.parameters?.docs,source:{originalSource:`{
+}`,...Q.parameters?.docs?.source}}};Z.parameters={...Z.parameters,docs:{...Z.parameters?.docs,source:{originalSource:`{
   render: () => {
     const handleRemove = (e: Event) => {
       (e.target as HTMLElement).remove();
@@ -1649,4 +1699,4 @@ import{A as O,b as l,w as C,M as Tt,u as M,v as L,h as J,E as Rt,p as It,r as Pt
       }
     }
   }
-}`,...q.parameters?.docs?.source}}};const Re=["Default","Sizes","Colors","WithCloseButton","Disabled","WithIcons","Interactive"];export{Y as Colors,H as Default,V as Disabled,q as Interactive,U as Sizes,G as WithCloseButton,W as WithIcons,Re as __namedExportsOrder,Te as default};
+}`,...Z.parameters?.docs?.source}}};const Dt=["Default","Sizes","Colors","Pills","CustomColorIcon","WithCloseButton","Disabled","WithIcons","Interactive"];export{q as Colors,G as CustomColorIcon,H as Default,W as Disabled,Z as Interactive,Y as Pills,U as Sizes,V as WithCloseButton,Q as WithIcons,Dt as __namedExportsOrder,Bt as default};
