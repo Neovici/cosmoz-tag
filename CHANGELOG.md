@@ -1,3 +1,9 @@
+## 1.6.0
+
+### Minor Changes
+
+- 6d9784e: Add a `type` attribute (`color` or `pill`) to choose the tag's shape. Prefix/suffix icons follow a custom `color` (any CSS color, with cosmoz-badge's custom colors).
+
 ## 1.5.0
 
 ### Minor Changes
