@@ -25,13 +25,18 @@ export const styles = css`
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0;
+		/* a little room so the hover reads as a round hit area; the
+		   negative margin keeps the tag's size as it was */
+		padding: ${sp(0.5)};
+		margin: ${sp(-0.5)};
 		border: none;
 		background: none;
 		cursor: pointer;
 		color: inherit;
 		opacity: 0.7;
-		transition: opacity 0.1s;
+		transition:
+			opacity 0.1s,
+			background-color 0.1s;
 		flex-shrink: 0;
 		border-radius: var(--cz-radius-full);
 		line-height: 0;
@@ -47,6 +52,8 @@ export const styles = css`
 	cosmoz-button.close::part(button):hover,
 	.close:hover:not(cosmoz-button) {
 		opacity: 1;
+		/* tinted from the tag's own text color, so it suits every tag color */
+		background: rgb(from currentColor r g b / 0.12);
 	}
 
 	cosmoz-button.close::part(button):focus-visible,
