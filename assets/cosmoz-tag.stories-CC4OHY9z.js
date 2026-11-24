@@ -1,4 +1,4 @@
-import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as Fe,D as Ce}from"./iframe-B5XH3IgG.js";import"./preload-helper-PPVm8Dsz.js";const i=e=>e??O;function y(e,t,o){return e?t(e):o?.(e)}const j=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
+import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as Fe,D as Ce}from"./iframe-Bk-hIz-I.js";import"./preload-helper-PPVm8Dsz.js";const i=e=>e??O;function y(e,t,o){return e?t(e):o?.(e)}const j=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
     slot=${i(e)}
     class=${`arrow-right-icon ${o??""}`}
@@ -14,7 +14,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path d="M5 12h14m0 0-7-7m7 7-7 7" />
   </svg>
 `,re=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
@@ -33,7 +33,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path d="M12 19V5m0 0-7 7m7-7 7 7" />
   </svg>
 `,Ne=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
@@ -52,7 +52,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M6.5 10v4m4-4v4m4-4v4m7.5-1v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
@@ -73,7 +73,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M6.5 10v4M22 13v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
@@ -94,7 +94,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M6.5 10v4m4-4v4M22 13v-2M6.8 18h7.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C19 15.72 19 14.88 19 13.2v-2.4c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C16.72 6 15.88 6 14.2 6H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 8.28 2 9.12 2 10.8v2.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 18 5.12 18 6.8 18Z"
     />
@@ -115,7 +115,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M9.354 21c.705.622 1.632 1 2.646 1s1.94-.378 2.646-1M15 5h6m-8-2.916A6 6 0 0 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.089 1.936.015.182.054.252.2.36.133.099.732.099 1.928.099H18.61c1.197 0 1.795 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.087-1.935-.774-1.243-1.476-3.052-1.623-5.606"
     />
@@ -136,7 +136,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M9.354 21c.705.622 1.632 1 2.646 1s1.94-.378 2.646-1M18 8V2m-3 3h6m-8-2.916A6 6 0 0 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.089 1.936.015.182.054.252.2.36.133.099.732.099 1.928.099H18.61c1.196 0 1.794 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.088-1.936-.492-.79-.955-1.81-1.264-3.105"
     />
@@ -157,7 +157,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M9.354 21A3.99 3.99 0 0 0 12 22c1.015 0 1.94-.378 2.646-1M2.294 5.82A4.007 4.007 0 0 1 4.326 2.3m17.376 3.52A4.007 4.007 0 0 0 19.67 2.3M18 8A6 6 0 1 0 6 8c0 3.09-.78 5.206-1.65 6.605-.735 1.18-1.102 1.771-1.088 1.936.014.182.053.252.2.36.133.099.73.099 1.927.099h13.222c1.197 0 1.795 0 1.927-.098.147-.11.186-.179.2-.361.014-.165-.353-.755-1.087-1.936C18.78 13.206 18 11.09 18 8Z"
     />
@@ -178,7 +178,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path
       d="M15 19a3 3 0 1 1-6 0m4.797-12.761a2.5 2.5 0 1 0-3.593 0M2.547 8.323a4.007 4.007 0 0 1 2.032-3.52m16.874 3.52a4.007 4.007 0 0 0-2.032-3.52m-1.42 6.397c0-1.38-.633-2.702-1.758-3.677C15.118 6.548 13.592 6 12 6c-1.591 0-3.117.548-4.242 1.523C6.632 8.498 6 9.821 6 11.2c0 2.282-.566 3.95-1.272 5.145-.804 1.36-1.207 2.041-1.19 2.204.017.186.05.244.202.355.131.096.794.096 2.118.096h12.284c1.325 0 1.987 0 2.119-.096.15-.11.184-.17.202-.355.016-.163-.386-.843-1.19-2.204C18.565 15.15 18 13.482 18 11.2Z"
     />
@@ -199,7 +199,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     height=${r}
     style=${i(n)}
   >
-    ${y(t,()=>C`<title>${t}</title>`)}
+    ${y(t,()=>_`<title>${t}</title>`)}
     <path d="M18 6 6 18M6 6l12 12" />
   </svg>
 `;const _e={CHILD:2},Se=e=>(...t)=>({_$litDirective$:e,values:t});class Ae{constructor(t){}get _$AU(){return this._$AM._$AU}_$AT(t,o,s){this._$Ct=t,this._$AM=o,this._$Ci=s}_$AS(t,o){return this.update(t,o)}update(t,o){return this.render(...o)}}const ve=(e,t,o)=>{const s=new Map;for(let r=t;r<=o;r++)s.set(e[r],r);return s},We=Se(class extends Ae{constructor(e){if(super(e),e.type!==_e.CHILD)throw Error("repeat() can only be used in text expressions")}dt(e,t,o){let s;o===void 0?o=t:t!==void 0&&(s=t);const r=[],n=[];let u=0;for(const g of e)r[u]=s?s(g,u):u,n[u]=o(g,u),u++;return{values:n,keys:r}}render(e,t,o){return this.dt(e,t,o).values}update(e,[t,o,s]){const r=Be(e),{values:n,keys:u}=this.dt(t,o,s);if(!Array.isArray(r))return this.ut=u,n;const g=this.ut??=[],p=[];let $,w,d=0,h=r.length-1,l=0,v=n.length-1;for(;d<=h&&l<=v;)if(r[d]===null)d++;else if(r[h]===null)h--;else if(g[d]===u[l])p[l]=M(r[d],n[l]),d++,l++;else if(g[h]===u[v])p[v]=M(r[h],n[v]),h--,v--;else if(g[d]===u[v])p[v]=M(r[d],n[v]),I(e,p[v+1],r[d]),d++,v--;else if(g[h]===u[l])p[l]=M(r[h],n[l]),I(e,r[d],r[h]),h--,l++;else if($===void 0&&($=ve(u,l,v),w=ve(g,d,h)),$.has(g[d]))if($.has(g[h])){const b=w.get(u[l]),m=b!==void 0?r[b]:null;if(m===null){const f=I(e,r[d]);M(f,n[l]),p[l]=f}else p[l]=M(m,n[l]),I(e,r[d],m),r[b]=null;l++}else se(r[h]),h--;else se(r[d]),d++;for(;l<=v;){const b=I(e,p[v+1]);M(b,n[l]),p[l++]=b}for(;d<=h;){const b=r[d++];b!==null&&se(b)}return this.ut=u,Oe(e,p),De}});let te,Ee=0;function be(e){te=e}function fe(){te=null,Ee=0}function Qe(){return Ee++}const ne=Symbol("haunted.phase"),K=Symbol("haunted.hook"),ze=Symbol("haunted.update"),ye=Symbol("haunted.commit"),T=Symbol("haunted.effects"),B=Symbol("haunted.layoutEffects"),ce="haunted.context";class Ze{update;host;virtual;[K];[T];[B];constructor(t,o){this.update=t,this.host=o,this[K]=new Map,this[T]=[],this[B]=[]}run(t){be(this);let o=t();return fe(),o}_runEffects(t){let o=this[t];be(this);for(let s of o)s.call(this);fe()}runEffects(){this._runEffects(T)}runLayoutEffects(){this._runEffects(B)}teardown(){this[K].forEach(o=>{typeof o.teardown=="function"&&o.teardown(!0)})}}class Ke extends Error{constructor(t){const o=t?` <${t}>`:"";super(`Infinite update loop detected in component${o}. This usually means a hook (useEffect, useMemo, useCallback) has dependencies that create new references on every render, such as [{}], [[]], or [Promise.resolve()]. Make sure your dependency arrays contain stable references.`),this.name="InfiniteLoopError"}}const Xe=100,Je=Promise.resolve().then.bind(Promise.resolve());function Me(){let e=[],t;function o(){t=null;let s=e;e=[];for(var r=0,n=s.length;r<n;r++)s[r]()}return function(s){e.push(s),t==null&&(t=Je(o))}}const et=Me(),$e=Me();class de{renderer;host;state;[ne];_updateQueued;_active;_updateCount;_processing;static maxUpdates=Xe;constructor(t,o){this.renderer=t,this.host=o,this.state=new Ze(this.update.bind(this),o),this[ne]=null,this._updateQueued=!1,this._active=!1,this._updateCount=0,this._processing=!1}_checkForInfiniteLoop(){if(this._processing||(this._updateCount=0),this._updateCount++,this._updateCount>de.maxUpdates){const t=this.host instanceof HTMLElement?this.host.tagName.toLowerCase():void 0;throw this._active=!1,new Ke(t)}}update(){this._active&&(this._updateQueued||(this._checkForInfiniteLoop(),this._processing=!0,et(()=>{let t=this.handlePhase(ze);$e(()=>{this.handlePhase(ye,t),$e(()=>{this.handlePhase(T),this._updateQueued||(this._processing=!1)})}),this._updateQueued=!1}),this._updateQueued=!0))}handlePhase(t,o){switch(this[ne]=t,t){case ye:this.commit(o),this.runEffects(B);return;case ze:return this.render();case T:return this.runEffects(T)}}render(){return this.state.run(()=>this.renderer.call(this.host,this.host))}runEffects(t){this.state._runEffects(t)}teardown(){this.state.teardown(),this._updateCount=0,this._processing=!1}pause(){this._active=!1}resume(){this._active=!0,this._updateCount=0}}const ue=(...e)=>{const t=new CSSStyleSheet;return t.replaceSync(e.join("")),t},tt=e=>e?.map(t=>typeof t=="string"?ue(t):t),ot=(e,...t)=>e.flatMap((o,s)=>[o,t[s]||""]).join(""),R=ot,st=(e="")=>e.replace(/-+([a-z])?/g,(t,o)=>o?o.toUpperCase():"");function rt(e){class t extends de{frag;renderResult;constructor(r,n,u){super(r,u||n),this.frag=n}commit(r){this.renderResult=e(r,this.frag)}}function o(s,r,n){const u=(n||r||{}).baseElement||HTMLElement,{observedAttributes:g=[],useShadowDOM:p=!0,shadowRootInit:$={},styleSheets:w}=n||r||{},d=tt(s.styleSheets||w);class h extends u{_scheduler;static get observedAttributes(){return s.observedAttributes||g||[]}constructor(){if(super(),p===!1)this._scheduler=new t(s,this);else{const m=this.attachShadow({mode:"open",...$});d&&(m.adoptedStyleSheets=d),this._scheduler=new t(s,m,this)}}connectedCallback(){super.connectedCallback?.(),this._scheduler.resume(),this._scheduler.update(),this._scheduler.renderResult?.setConnected(!0)}disconnectedCallback(){super.disconnectedCallback?.(),this._scheduler.pause(),this._scheduler.teardown(),this._scheduler.renderResult?.setConnected(!1)}attributeChangedCallback(m,f,z){if(f===z)return;let x=z===""?!0:z;Reflect.set(this,st(m),x)}}function l(b){let m=b,f=!1;return Object.freeze({enumerable:!0,configurable:!0,get(){return m},set(z){f&&m===z||(f=!0,m=z,this._scheduler&&this._scheduler.update())}})}const v=new Proxy(u.prototype,{getPrototypeOf(b){return b},set(b,m,f,z){let x;return m in b?(x=Object.getOwnPropertyDescriptor(b,m),x&&x.set?(x.set.call(z,f),z._scheduler?.update(),!0):(Reflect.set(b,m,f,z),z._scheduler?.update(),!0)):(typeof m=="symbol"||m[0]==="_"?x={enumerable:!0,configurable:!0,writable:!0,value:f}:x=l(f),Object.defineProperty(z,m,x),x.set&&x.set.call(z,f),!0)}});return Object.setPrototypeOf(h.prototype,v),h}return o}class P{id;state;constructor(t,o){this.id=t,this.state=o}}function nt(e,...t){let o=Qe(),s=te[K],r=s.get(o);return r||(r=new e(o,te,...t),s.set(o,r)),r.update(...t)}function L(e){return nt.bind(null,e)}function Te(e){return L(class extends P{callback;lastValues;values;_teardown;constructor(t,o,s,r){super(t,o),e(o,this)}update(t,o){this.callback=t,this.values=o}call(){const t=!this.values||this.hasChanged();this.lastValues=this.values,t&&this.run()}run(){this.teardown(),this._teardown=this.callback.call(this.state)}teardown(t){typeof this._teardown=="function"&&(this._teardown(),this._teardown=void 0),t&&(this.lastValues=this.values=void 0)}hasChanged(){return!this.lastValues||this.values.some((t,o)=>this.lastValues[o]!==t)}})}function Re(e,t){e[T].push(t)}const A=Te(Re),at=e=>e instanceof Element?e:e.startNode||e.endNode||e.parentNode,it=L(class extends P{Context;value;_ranEffect;_unsubscribe;constructor(e,t,o){super(e,t),this._updater=this._updater.bind(this),this._ranEffect=!1,this._unsubscribe=null,Re(t,this)}update(e){return this.Context!==e&&(this._subscribe(e),this.Context=e),this.value}call(){this._ranEffect||(this._ranEffect=!0,this._unsubscribe&&this._unsubscribe(),this._subscribe(this.Context),this.state.update())}_updater(e){this.value=e,this.state.update()}_subscribe(e){const t={Context:e,callback:this._updater};at(this.state.host).dispatchEvent(new CustomEvent(ce,{detail:t,bubbles:!0,cancelable:!0,composed:!0}));const{unsubscribe:s=null,value:r}=t;this.value=s?r:e.defaultValue,this._unsubscribe=s}teardown(){this._unsubscribe&&this._unsubscribe()}});function ct(e){return t=>{const o={Provider:class extends HTMLElement{listeners;_value;constructor(){super(),this.style.display="contents",this.listeners=new Set,this.addEventListener(ce,this)}disconnectedCallback(){this.removeEventListener(ce,this)}handleEvent(s){const{detail:r}=s;r.Context===o&&(r.value=this.value,r.unsubscribe=this.unsubscribe.bind(this,r.callback),this.listeners.add(r.callback),s.stopPropagation())}unsubscribe(s){this.listeners.delete(s)}set value(s){this._value=s;for(let r of this.listeners)r(s)}get value(){return this._value}},Consumer:e(function({render:s}){const r=it(o);return s(r)},{useShadowDOM:!1}),defaultValue:t};return o}}const Pe=L(class extends P{value;values;constructor(e,t,o,s){super(e,t),this.value=o(),this.values=s}update(e,t){return this.hasChanged(t)&&(this.values=t,this.value=e()),this.value}hasChanged(e=[]){return e.some((t,o)=>this.values[o]!==t)}}),xe=(e,t)=>Pe(()=>e,t);function lt(e,t){e[B].push(t)}const Le=Te(lt),dt=L(class extends P{args;constructor(e,t,o){super(e,t),this.updater=this.updater.bind(this),typeof o=="function"&&(o=o()),this.makeArgs(o)}update(){return this.args}updater(e){const[t]=this.args;typeof e=="function"&&(e=e(t)),!Object.is(t,e)&&(this.makeArgs(e),this.state.update())}makeArgs(e){this.args=Object.freeze([e,this.updater])}});L(class extends P{reducer;currentState;constructor(e,t,o,s,r){super(e,t),this.dispatch=this.dispatch.bind(this),this.currentState=r!==void 0?r(s):s}update(e){return this.reducer=e,[this.currentState,this.dispatch]}dispatch(e){this.currentState=this.reducer(this.currentState,e),this.state.update()}});const ut=/([A-Z])/gu;L(class extends P{property;eventName;constructor(e,t,o,s){if(super(e,t),this.state.virtual)throw new Error("Can't be used with virtual components.");this.updater=this.updater.bind(this),this.property=o,this.eventName=o.replace(ut,"-$1").toLowerCase()+"-changed",this.state.host[this.property]==null&&(typeof s=="function"&&(s=s()),s!=null&&this.updater(s,!0))}update(e,t){return[this.state.host[this.property],this.updater]}resolve(e){const t=this.state.host[this.property],o=typeof e=="function"?e:void 0,s=o?o(t):e;return[t,s,o]}notify(e,t){const o=new CustomEvent(this.eventName,{detail:{value:e,updater:t,path:this.property},cancelable:!0});return this.state.host.dispatchEvent(o),o}updater(e,t=!1){const[o,s,r]=this.resolve(e),n=this.notify(s,r);!t&&n.defaultPrevented||Object.is(o,s)||(this.state.host[this.property]=s)}});function ht(e){let t=e;return{get current(){return t},set current(o){t=o},get value(){return t},set value(o){t=o}}}function X(e){return Pe(()=>ht(e),[])}L(class extends P{update(){return this.state.host}});function pt({render:e}){const t=rt(e),o=ct(t);return{component:t,createContext:o}}const D=(e,t)=>{const o=e._$AN;if(o===void 0)return!1;for(const s of o)s._$AO?.(t,!1),D(s,t);return!0},oe=e=>{let t,o;do{if((t=e._$AM)===void 0)break;o=t._$AN,o.delete(e),e=t}while(o?.size===0)},Ie=e=>{for(let t;t=e._$AM;e=t){let o=t._$AN;if(o===void 0)t._$AN=o=new Set;else if(o.has(e))break;o.add(e),vt(t)}};function gt(e){this._$AN!==void 0?(oe(this),this._$AM=e,Ie(this)):this._$AM=e}function mt(e,t=!1,o=0){const s=this._$AH,r=this._$AN;if(r!==void 0&&r.size!==0)if(t)if(Array.isArray(s))for(let n=o;n<s.length;n++)D(s[n],!1),oe(s[n]);else s!=null&&(D(s,!1),oe(s));else D(this,e)}const vt=e=>{e.type==_e.CHILD&&(e._$AP??=mt,e._$AQ??=gt)};class bt extends Ae{constructor(){super(...arguments),this._$AN=void 0}_$AT(t,o,s){super._$AT(t,o,s),Ie(this),this.isConnected=t._$AU}_$AO(t,o=!0){t!==this.isConnected&&(this.isConnected=t,t?this.reconnected?.():this.disconnected?.()),o&&(D(this,t),oe(this))}setValue(t){if(Fe(this._$Ct))this._$Ct._$AI(t,this);else{const o=[...this._$Ct._$AH];o[this._$Ci]=t,this._$Ct._$AI(o,this,0)}}disconnected(){}reconnected(){}}const{component:F}=pt({render:Ce}),N=ue(R`
@@ -767,7 +767,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 `),we=(e,t,o)=>Ce(c`<cosmoz-tooltip-content>
 			${y(t,()=>c`<strong slot="heading">${t}</strong>`)}
 			${y(o,()=>c`<p slot="description">${o}</p>`)}
-		</cosmoz-tooltip-content>`,e),$t=(e,t)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:g=!1}=t,p=X(),w=!!(s||r)&&!g;A(()=>{if(!o||!w)return;const d=e.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(le)||(d.adoptedStyleSheets=[...h,le]);const l=document.createElement("div");l.setAttribute("popover","manual"),l.setAttribute("role","tooltip"),l.classList.add("cosmoz-tooltip-popover"),e.after(l),p.current=l,we(l,s,r);const v=`[name="${o}"]`,b=`--tooltip-anchor-${o}`;let m;const f=k=>{g||(clearTimeout(m),k.style.anchorName=b,l.style.positionAnchor=b,l.style.positionArea=n,m=window.setTimeout(()=>l.showPopover(),u))},z=()=>{clearTimeout(m),l.hidePopover()},x=k=>{const _=k.target.closest?.(v);_&&f(_)},he=k=>{const _=k.target.closest?.(v);if(!_)return;const me=k.relatedTarget;me&&_.contains(me)||z()},pe=k=>{const _=k.target.closest?.(v);_&&f(_)},ge=k=>{k.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",he),d.addEventListener("focusin",pe),d.addEventListener("focusout",ge),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",he),d.removeEventListener("focusin",pe),d.removeEventListener("focusout",ge),l.hidePopover(),l.remove(),p.current=void 0}},[o,n,u,w]),A(()=>{!o||!p.current||we(p.current,s,r)},[s,r,o]),A(()=>{!g||!p.current||p.current.hidePopover()},[g])},xt=e=>{const[t,o]=dt(!1);return A(()=>{const s=e.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[e.current]),t},wt=R`
+		</cosmoz-tooltip-content>`,e),$t=(e,t)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:g=!1}=t,p=X(),w=!!(s||r)&&!g;A(()=>{if(!o||!w)return;const d=e.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(le)||(d.adoptedStyleSheets=[...h,le]);const l=document.createElement("div");l.setAttribute("popover","manual"),l.setAttribute("role","tooltip"),l.classList.add("cosmoz-tooltip-popover"),e.after(l),p.current=l,we(l,s,r);const v=`[name="${o}"]`,b=`--tooltip-anchor-${o}`;let m;const f=k=>{g||(clearTimeout(m),k.style.anchorName=b,l.style.positionAnchor=b,l.style.positionArea=n,m=window.setTimeout(()=>l.showPopover(),u))},z=()=>{clearTimeout(m),l.hidePopover()},x=k=>{const S=k.target.closest?.(v);S&&f(S)},he=k=>{const S=k.target.closest?.(v);if(!S)return;const me=k.relatedTarget;me&&S.contains(me)||z()},pe=k=>{const S=k.target.closest?.(v);S&&f(S)},ge=k=>{k.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",he),d.addEventListener("focusin",pe),d.addEventListener("focusout",ge),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",he),d.removeEventListener("focusin",pe),d.removeEventListener("focusout",ge),l.hidePopover(),l.remove(),p.current=void 0}},[o,n,u,w]),A(()=>{!o||!p.current||we(p.current,s,r)},[s,r,o]),A(()=>{!g||!p.current||p.current.hidePopover()},[g])},xt=e=>{const[t,o]=dt(!1);return A(()=>{const s=e.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[e.current]),t},wt=R`
 	:host {
 		display: inline-block;
 		anchor-name: --tooltip-anchor;
@@ -1184,7 +1184,7 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 		?disabled=${$}
 	>
 		${d}
-	</cosmoz-tooltip>`};customElements.define("cosmoz-button",F(At,{baseElement:Ct,observedAttributes:St,styleSheets:[N,_t],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const S=e=>`calc(var(--cz-spacing) * ${e})`,Et=R`
+	</cosmoz-tooltip>`};customElements.define("cosmoz-button",F(At,{baseElement:Ct,observedAttributes:St,styleSheets:[N,_t],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const C=e=>`calc(var(--cz-spacing) * ${e})`,Et=R`
 	/* =========================================
 	 * HOST
 	 * ========================================= */
@@ -1205,13 +1205,18 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0;
+		/* a little room so the hover reads as a round hit area; the
+		   negative margin keeps the tag's size as it was */
+		padding: ${C(.5)};
+		margin: ${C(-.5)};
 		border: none;
 		background: none;
 		cursor: pointer;
 		color: inherit;
 		opacity: 0.7;
-		transition: opacity 0.1s;
+		transition:
+			opacity 0.1s,
+			background-color 0.1s;
 		flex-shrink: 0;
 		border-radius: var(--cz-radius-full);
 		line-height: 0;
@@ -1227,6 +1232,8 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 	cosmoz-button.close::part(button):hover,
 	.close:hover:not(cosmoz-button) {
 		opacity: 1;
+		/* tinted from the tag's own text color, so it suits every tag color */
+		background: rgb(from currentColor r g b / 0.12);
 	}
 
 	cosmoz-button.close::part(button):focus-visible,
@@ -1236,27 +1243,27 @@ import{A as O,b as c,w as C,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 	}
 
 	.close svg {
-		width: ${S(2.5)};
-		height: ${S(2.5)};
+		width: ${C(2.5)};
+		height: ${C(2.5)};
 	}
 
 	:host([size='md']) .close svg,
 	:host(:not([size])) .close svg {
-		width: ${S(3)};
-		height: ${S(3)};
+		width: ${C(3)};
+		height: ${C(3)};
 	}
 
 	:host([size='lg']) .close svg {
-		width: ${S(3.5)};
-		height: ${S(3.5)};
+		width: ${C(3.5)};
+		height: ${C(3.5)};
 	}
 
 	/* =========================================
 	 * SLOTTED CONTENT (icons, images, flags)
 	 * ========================================= */
 	::slotted(svg) {
-		width: ${S(3.5)};
-		height: ${S(3.5)};
+		width: ${C(3.5)};
+		height: ${C(3.5)};
 		color: var(--cosmoz-tag-color, var(--cz-color-fg-quaternary));
 	}
 
