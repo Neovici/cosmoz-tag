@@ -1,3 +1,10 @@
+## 1.6.1
+
+### Patch Changes
+
+- 3e9543d: The remove button shows a round, tinted background on hover (from the tag's text color), not only a change in opacity.
+- a89eae0: Removable tags take the remove button's accessible name from the `remove-label` attribute, also when the attribute changes after render.
+
 ## 1.6.0
 
 ### Minor Changes
