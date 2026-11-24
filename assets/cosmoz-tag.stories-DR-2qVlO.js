@@ -1,4 +1,4 @@
-import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as Fe,D as Ce}from"./iframe-Bk-hIz-I.js";import"./preload-helper-PPVm8Dsz.js";const i=e=>e??O;function y(e,t,o){return e?t(e):o?.(e)}const j=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
+import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as Fe,D as Ce}from"./iframe-DVB6WzvF.js";import"./preload-helper-PPVm8Dsz.js";const i=e=>e??O;function y(e,t,o){return e?t(e):o?.(e)}const j=({slot:e,title:t,className:o,width:s="24",height:r="24",styles:n}={})=>c`
   <svg
     slot=${i(e)}
     class=${`arrow-right-icon ${o??""}`}
@@ -767,7 +767,7 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 `),we=(e,t,o)=>Ce(c`<cosmoz-tooltip-content>
 			${y(t,()=>c`<strong slot="heading">${t}</strong>`)}
 			${y(o,()=>c`<p slot="description">${o}</p>`)}
-		</cosmoz-tooltip-content>`,e),$t=(e,t)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:g=!1}=t,p=X(),w=!!(s||r)&&!g;A(()=>{if(!o||!w)return;const d=e.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(le)||(d.adoptedStyleSheets=[...h,le]);const l=document.createElement("div");l.setAttribute("popover","manual"),l.setAttribute("role","tooltip"),l.classList.add("cosmoz-tooltip-popover"),e.after(l),p.current=l,we(l,s,r);const v=`[name="${o}"]`,b=`--tooltip-anchor-${o}`;let m;const f=k=>{g||(clearTimeout(m),k.style.anchorName=b,l.style.positionAnchor=b,l.style.positionArea=n,m=window.setTimeout(()=>l.showPopover(),u))},z=()=>{clearTimeout(m),l.hidePopover()},x=k=>{const S=k.target.closest?.(v);S&&f(S)},he=k=>{const S=k.target.closest?.(v);if(!S)return;const me=k.relatedTarget;me&&S.contains(me)||z()},pe=k=>{const S=k.target.closest?.(v);S&&f(S)},ge=k=>{k.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",he),d.addEventListener("focusin",pe),d.addEventListener("focusout",ge),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",he),d.removeEventListener("focusin",pe),d.removeEventListener("focusout",ge),l.hidePopover(),l.remove(),p.current=void 0}},[o,n,u,w]),A(()=>{!o||!p.current||we(p.current,s,r)},[s,r,o]),A(()=>{!g||!p.current||p.current.hidePopover()},[g])},xt=e=>{const[t,o]=dt(!1);return A(()=>{const s=e.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[e.current]),t},wt=R`
+		</cosmoz-tooltip-content>`,e),$t=(e,t)=>{const{for:o,heading:s,description:r,placement:n="top",delay:u=300,disabled:g=!1}=t,p=X(),w=!!(s||r)&&!g;A(()=>{if(!o||!w)return;const d=e.getRootNode(),h=d.adoptedStyleSheets??[];h.includes(le)||(d.adoptedStyleSheets=[...h,le]);const l=document.createElement("div");l.setAttribute("popover","manual"),l.setAttribute("role","tooltip"),l.classList.add("cosmoz-tooltip-popover"),e.after(l),p.current=l,we(l,s,r);const v=`[name="${o}"]`,b=`--tooltip-anchor-${o}`;let m;const f=C=>{g||(clearTimeout(m),C.style.anchorName=b,l.style.positionAnchor=b,l.style.positionArea=n,m=window.setTimeout(()=>l.showPopover(),u))},z=()=>{clearTimeout(m),l.hidePopover()},x=C=>{const S=C.target.closest?.(v);S&&f(S)},he=C=>{const S=C.target.closest?.(v);if(!S)return;const me=C.relatedTarget;me&&S.contains(me)||z()},pe=C=>{const S=C.target.closest?.(v);S&&f(S)},ge=C=>{C.target.closest?.(v)&&z()};return d.addEventListener("pointerover",x),d.addEventListener("pointerout",he),d.addEventListener("focusin",pe),d.addEventListener("focusout",ge),()=>{clearTimeout(m),d.removeEventListener("pointerover",x),d.removeEventListener("pointerout",he),d.removeEventListener("focusin",pe),d.removeEventListener("focusout",ge),l.hidePopover(),l.remove(),p.current=void 0}},[o,n,u,w]),A(()=>{!o||!p.current||we(p.current,s,r)},[s,r,o]),A(()=>{!g||!p.current||p.current.hidePopover()},[g])},xt=e=>{const[t,o]=dt(!1);return A(()=>{const s=e.current;if(!s)return;const r=()=>{o(s.assignedElements().length>0)};return r(),s.addEventListener("slotchange",r),()=>s.removeEventListener("slotchange",r)},[e.current]),t},wt=R`
 	:host {
 		display: inline-block;
 		anchor-name: --tooltip-anchor;
@@ -1184,7 +1184,7 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 		?disabled=${$}
 	>
 		${d}
-	</cosmoz-tooltip>`};customElements.define("cosmoz-button",F(At,{baseElement:Ct,observedAttributes:St,styleSheets:[N,_t],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const C=e=>`calc(var(--cz-spacing) * ${e})`,Et=R`
+	</cosmoz-tooltip>`};customElements.define("cosmoz-button",F(At,{baseElement:Ct,observedAttributes:St,styleSheets:[N,_t],shadowRootInit:{mode:"open",delegatesFocus:!0}}));const k=e=>`calc(var(--cz-spacing) * ${e})`,Et=R`
 	/* =========================================
 	 * HOST
 	 * ========================================= */
@@ -1207,8 +1207,8 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 		justify-content: center;
 		/* a little room so the hover reads as a round hit area; the
 		   negative margin keeps the tag's size as it was */
-		padding: ${C(.5)};
-		margin: ${C(-.5)};
+		padding: ${k(.5)};
+		margin: ${k(-.5)};
 		border: none;
 		background: none;
 		cursor: pointer;
@@ -1243,27 +1243,32 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 	}
 
 	.close svg {
-		width: ${C(2.5)};
-		height: ${C(2.5)};
+		width: ${k(2.5)};
+		height: ${k(2.5)};
+	}
+
+	:host([size='xs']) .close svg {
+		width: ${k(2)};
+		height: ${k(2)};
 	}
 
 	:host([size='md']) .close svg,
 	:host(:not([size])) .close svg {
-		width: ${C(3)};
-		height: ${C(3)};
+		width: ${k(3)};
+		height: ${k(3)};
 	}
 
 	:host([size='lg']) .close svg {
-		width: ${C(3.5)};
-		height: ${C(3.5)};
+		width: ${k(3.5)};
+		height: ${k(3.5)};
 	}
 
 	/* =========================================
 	 * SLOTTED CONTENT (icons, images, flags)
 	 * ========================================= */
 	::slotted(svg) {
-		width: ${C(3.5)};
-		height: ${C(3.5)};
+		width: ${k(3.5)};
+		height: ${k(3.5)};
 		color: var(--cosmoz-tag-color, var(--cz-color-fg-quaternary));
 	}
 
@@ -1299,7 +1304,7 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 				>
 					${Ve()}
 				</cosmoz-button>`)}
-	</cosmoz-badge>`};customElements.define("cosmoz-tag",F(Tt,{observedAttributes:["color","type","size","disabled","removable","remove-label"],styleSheets:[N,Et]}));const{expect:J,waitFor:ee}=__STORYBOOK_MODULE_TEST__,E=["gray","brand","error","warning","success"],Rt=[{id:1,label:"Design",color:"brand"},{id:2,label:"Bug",color:"error"},{id:3,label:"Feature",color:"success"},{id:4,label:"Review",color:"warning"},{id:5,label:"Docs",color:"gray"},{id:6,label:"Refactor",color:"brand"},{id:7,label:"Performance",color:"success"},{id:8,label:"Urgent",color:"error"}],Bt={title:"Cosmoz Tag",component:"cosmoz-tag",tags:["autodocs"],argTypes:{color:{control:"select",options:[...E],description:"Tag color scheme",table:{defaultValue:{summary:"gray"}}},type:{control:"select",options:["color","pill"],description:"Tag shape",table:{defaultValue:{summary:"color"}}},size:{control:"select",options:["sm","md","lg"],description:"Tag size",table:{defaultValue:{summary:"md"}}},disabled:{control:"boolean",description:"Disabled state",table:{defaultValue:{summary:"false"}}},removable:{control:"boolean",description:"Show remove (X) button",table:{defaultValue:{summary:"false"}}},label:{control:"text",description:"Tag label text"},remove:{description:"Event dispatched when the remove button is clicked.",table:{category:"events"},control:!1}}},Pt=e=>c`
+	</cosmoz-badge>`};customElements.define("cosmoz-tag",F(Tt,{observedAttributes:["color","type","size","disabled","removable","remove-label"],styleSheets:[N,Et]}));const{expect:J,waitFor:ee}=__STORYBOOK_MODULE_TEST__,E=["gray","brand","error","warning","success"],Rt=[{id:1,label:"Design",color:"brand"},{id:2,label:"Bug",color:"error"},{id:3,label:"Feature",color:"success"},{id:4,label:"Review",color:"warning"},{id:5,label:"Docs",color:"gray"},{id:6,label:"Refactor",color:"brand"},{id:7,label:"Performance",color:"success"},{id:8,label:"Urgent",color:"error"}],Bt={title:"Cosmoz Tag",component:"cosmoz-tag",tags:["autodocs"],argTypes:{color:{control:"select",options:[...E],description:"Tag color scheme",table:{defaultValue:{summary:"gray"}}},type:{control:"select",options:["color","pill"],description:"Tag shape",table:{defaultValue:{summary:"color"}}},size:{control:"select",options:["xs","sm","md","lg"],description:"Tag size",table:{defaultValue:{summary:"md"}}},disabled:{control:"boolean",description:"Disabled state",table:{defaultValue:{summary:"false"}}},removable:{control:"boolean",description:"Show remove (X) button",table:{defaultValue:{summary:"false"}}},label:{control:"text",description:"Tag label text"},remove:{description:"Event dispatched when the remove button is clicked.",table:{category:"events"},control:!1}}},Pt=e=>c`
     <cosmoz-tag
         color=${e.color||"gray"}
         size=${e.size||"md"}
@@ -1310,11 +1315,12 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
     </cosmoz-tag>
 `,H={args:{color:"gray",size:"md",label:"Label",disabled:!1},render:Pt},U={render:()=>c`
         <div class="story-row">
+            <cosmoz-tag size="xs">Extra small</cosmoz-tag>
             <cosmoz-tag size="sm">Small</cosmoz-tag>
             <cosmoz-tag size="md">Medium</cosmoz-tag>
             <cosmoz-tag size="lg">Large</cosmoz-tag>
         </div>
-    `,parameters:{docs:{description:{story:"Tag sizes: sm, md, and lg."}}}},q={render:()=>c`
+    `,parameters:{docs:{description:{story:"Tag sizes: xs, sm, md, and lg."}}}},q={render:()=>c`
         <div class="story-row">
             ${E.map(e=>c`<cosmoz-tag color=${e}>${e}</cosmoz-tag>`)}
         </div>
@@ -1454,6 +1460,7 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
 }`,...H.parameters?.docs?.source}}};U.parameters={...U.parameters,docs:{...U.parameters?.docs,source:{originalSource:`{
   render: () => html\`
         <div class="story-row">
+            <cosmoz-tag size="xs">Extra small</cosmoz-tag>
             <cosmoz-tag size="sm">Small</cosmoz-tag>
             <cosmoz-tag size="md">Medium</cosmoz-tag>
             <cosmoz-tag size="lg">Large</cosmoz-tag>
@@ -1462,7 +1469,7 @@ import{A as O,b as c,w as _,M as Be,u as M,v as I,h as se,E as De,p as Oe,r as F
   parameters: {
     docs: {
       description: {
-        story: 'Tag sizes: sm, md, and lg.'
+        story: 'Tag sizes: xs, sm, md, and lg.'
       }
     }
   }
