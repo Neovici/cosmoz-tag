@@ -87,7 +87,14 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 customElements.define(
 	'cosmoz-tag',
 	component(CosmozTag, {
-		observedAttributes: ['color', 'type', 'size', 'disabled', 'removable'],
+		observedAttributes: [
+			'color',
+			'type',
+			'size',
+			'disabled',
+			'removable',
+			'remove-label',
+		],
 		styleSheets: [normalize, styles],
 	}),
 );
