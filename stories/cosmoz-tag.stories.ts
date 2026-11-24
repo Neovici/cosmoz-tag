@@ -47,7 +47,7 @@ const meta: Meta = {
 		},
 		size: {
 			control: 'select',
-			options: ['sm', 'md', 'lg'],
+			options: ['xs', 'sm', 'md', 'lg'],
 			description: 'Tag size',
 			table: { defaultValue: { summary: 'md' } },
 		},
@@ -98,6 +98,7 @@ export const Default: Story = {
 export const Sizes: Story = {
 	render: () => html`
 		<div class="story-row">
+			<cosmoz-tag size="xs">Extra small</cosmoz-tag>
 			<cosmoz-tag size="sm">Small</cosmoz-tag>
 			<cosmoz-tag size="md">Medium</cosmoz-tag>
 			<cosmoz-tag size="lg">Large</cosmoz-tag>
@@ -105,7 +106,7 @@ export const Sizes: Story = {
 	`,
 	parameters: {
 		docs: {
-			description: { story: 'Tag sizes: sm, md, and lg.' },
+			description: { story: 'Tag sizes: xs, sm, md, and lg.' },
 		},
 	},
 };

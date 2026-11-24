@@ -67,6 +67,11 @@ export const styles = css`
 		height: ${sp(2.5)};
 	}
 
+	:host([size='xs']) .close svg {
+		width: ${sp(2)};
+		height: ${sp(2)};
+	}
+
 	:host([size='md']) .close svg,
 	:host(:not([size])) .close svg {
 		width: ${sp(3)};

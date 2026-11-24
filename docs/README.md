@@ -35,7 +35,7 @@ Use in HTML:
 | -------------- | ------- | -------- | ------------------------------------------------------------------------------------- |
 | `color`        | string  | `gray`   | Color scheme: gray, brand, error, warning, success, or any CSS color (e.g. `#7c3aed`) |
 | `type`         | string  | `color`  | Shape: `color` (rounded rectangle) or `pill`                                          |
-| `size`         | string  | `md`     | Size: sm, md, lg                                                                      |
+| `size`         | string  | `md`     | Size: xs, sm, md, lg                                                                  |
 | `removable`    | boolean | `false`  | Show remove (X) button                                                                |
 | `remove-label` | string  | `Remove` | Accessible name of the remove button                                                  |
 | `disabled`     | boolean | `false`  | Disabled state (non-interactive, visually muted)                                      |
