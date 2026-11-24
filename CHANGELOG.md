@@ -1,3 +1,9 @@
+## 1.7.0
+
+### Minor Changes
+
+- d8ebac5: Add an `xs` size for tags that sit in dense rows: a 20px pill with 11px text and a smaller remove icon.
+
 ## 1.6.1
 
 ### Patch Changes
