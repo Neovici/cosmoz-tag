@@ -17,6 +17,8 @@ const NAMED = ['gray', 'brand', 'error', 'warning', 'success', 'processing'];
  *
  * @attr {string} type - Shape: color (default, rounded rectangle) or pill
  * @attr {string} color - gray (default), brand, error, warning, success, or any CSS color
+ * @attr {string} remove-tabindex - Tab index of the remove button; set `-1` to keep it out
+ *   of the tab order, for remove controls inside a composite widget.
  *
  * @slot - Default slot for tag label text
  * @slot prefix - Slot for content before text (icons, avatars, flags)
@@ -42,6 +44,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 		disabled,
 		removable,
 		removeLabel = 'Remove',
+		removeTabindex,
 	} = host;
 
 	// Icons are re-slotted into the badge, out of reach of its custom-color
@@ -75,6 +78,7 @@ const CosmozTag = (host: HTMLElement & UseTagProps) => {
 					slot="suffix"
 					class="close"
 					aria-label=${removeLabel}
+					tabindex=${ifDefined(removeTabindex)}
 					@mousedown=${(e: Event) => e.preventDefault()}
 					@click=${handleRemove}
 				>
@@ -94,6 +98,7 @@ customElements.define(
 			'disabled',
 			'removable',
 			'remove-label',
+			'remove-tabindex',
 		],
 		styleSheets: [normalize, styles],
 	}),

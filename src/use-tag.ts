@@ -5,4 +5,5 @@ export interface UseTagProps {
 	disabled?: boolean;
 	removable?: boolean;
 	removeLabel?: string;
+	removeTabindex?: string;
 }
