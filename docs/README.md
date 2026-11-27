@@ -31,14 +31,15 @@ Use in HTML:
 
 ## Attributes
 
-| Attribute      | Type    | Default  | Description                                                                           |
-| -------------- | ------- | -------- | ------------------------------------------------------------------------------------- |
-| `color`        | string  | `gray`   | Color scheme: gray, brand, error, warning, success, or any CSS color (e.g. `#7c3aed`) |
-| `type`         | string  | `color`  | Shape: `color` (rounded rectangle) or `pill`                                          |
-| `size`         | string  | `md`     | Size: xs, sm, md, lg                                                                  |
-| `removable`    | boolean | `false`  | Show remove (X) button                                                                |
-| `remove-label` | string  | `Remove` | Accessible name of the remove button                                                  |
-| `disabled`     | boolean | `false`  | Disabled state (non-interactive, visually muted)                                      |
+| Attribute         | Type    | Default  | Description                                                                           |
+| ----------------- | ------- | -------- | ------------------------------------------------------------------------------------- |
+| `color`           | string  | `gray`   | Color scheme: gray, brand, error, warning, success, or any CSS color (e.g. `#7c3aed`) |
+| `type`            | string  | `color`  | Shape: `color` (rounded rectangle) or `pill`                                          |
+| `size`            | string  | `md`     | Size: xs, sm, md, lg                                                                  |
+| `removable`       | boolean | `false`  | Show remove (X) button                                                                |
+| `remove-label`    | string  | `Remove` | Accessible name of the remove button                                                  |
+| `remove-tabindex` | string  |          | Tab index of the remove button; `-1` keeps it out of the tab order                    |
+| `disabled`        | boolean | `false`  | Disabled state (non-interactive, visually muted)                                      |
 
 ## Events
 
